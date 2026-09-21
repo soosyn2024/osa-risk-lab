@@ -1,0 +1,3039 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OSA風險評估量表</title>
+    <style>
+    /* Font Awesome 6.5.1 Solid — 內嵌子集（僅本工具使用的圖示），離線可用，不依賴外部 CDN */
+    @font-face{
+      font-family:"Font Awesome 6 Free";font-style:normal;font-weight:900;font-display:block;
+      src:url(data:font/woff2;base64,d09GMgABAAAAAAgMAAoAAAAAEjgAAAfCAwUDAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgSzKm2IBNgIkA0TLJAQgBYMYByAbhxEgHIVxs/PWFDLVziIcfUfJf/43rXMfDUQhBAKtk9CWjIfQhBlnxDwj5qyY87tmf5YVsb+s/Vm6JsGksYFne5YQ+1HvZ4glD5lUIVdihADw/1t7tcBuo5IiyAhbYGlm77yl2d/5+2dDuL9AtD84zZbAxvXEtSwBwYgKhcaQzWuYnnGL6WPrBMUXgu4N0MI47lJEAJpH2wHMBO/5O9pwKcAQ4xDmS+O+k1cunQ+/wX4/Su+EzwJAGeZ+MggAaDI9DsAAADAAHAAVHOioaMGdjfmK4YaHrMEaQmNiY03jUMMfXPe/fPClwVcGfxj867d9v5347aLfj4YhQDYclELpX+k16SHpVuly8WHxYnGWOFPsEdVEkLgjcX38XhDCt82AsMZANXTCBfp4Qbe1rCrwZp4ZLaHfypaHx0DXdKHkAh5uytnKZr7NC3xW1TVdcygg6xOLxVOp+PnyZdW4cYyNG7fK7vChNc2piqKe/Swf/WaU3+TrYrELVvUEWP1GRcnPcn9+doC1OlpONaMdxYRuX0xsgm23BLUxh0KVn3ec181hV0aWM0A/E3n+kU+n1GLRFF2aisZYyXmu+8pyd3d+9mbgAYco5ppEJjHKgLWPDOsMFKANDjxAqXRITTFNjbLNG4aiZdWJdG+JYFsAPZ5kU8cp4czTanrVEpJ3AGUyHeR3AIKQouZnTosmU8LK9mgiEfWiEUGqNkSBF05+2iElk1KHqadqOVk7Gsjb897xQi4WW5RMpejvnoknEqS3tur0qAXHdEzn+UZjLhCpuPms1q66JXMxzCEGZQKVtQFGQonLo5AtL/fLZQ2XKmaMHdubny1svxlIptAadtEY04oai4Ji0dVYEGNHSgR+zKNcfn+YOnXCfjYlNHrCY1oBsQrCJT8sBv/W4MJ/wzqLUIAMelACSNMVW2PDjm7PrkTihWzqCL3iWkQDFlhCw8T7ulaFnvwyHk/qzUUw+wm/SjaGSDP8dSggpXmjqipkq1SVDm7mM+2gxi6tPp56tIjJxgZczMcWR/PlySbI2SjNnCUqwp49RQOcqBfJN0x7NkSZHFMSQR+kXLAzSnNi0tEWiW7syEbNg3nSCPaqkagl0zcw/EAJ1rEFIQQBZYiVLIJKWp+QaPgrNT1fXeT1Kt8cBJmxb4jITZvv37YLvSjBwwJAuT8xDXBQLQylcRmG+bXKWcfmumOKmCVNCemz1AsgGNAGQc33bwxCViKS4m6hIdVunFJfGFOCsEkIkiR6HNyDmwBibjldku4fEiw8M/zGZqcwGWueSGBuR7M+qcioiyj6DKd0ek2MRiJJMT2nhFprWyHOuGQsTkG+SfsJw25iE2LxOHGsZD9LqwLxyTgjQJjU/Ma9cyhgCuZhM/bjWhUUCZIt1AB9UxHBkN/cdOYGEiYQDs5PCr7KYHDpoTKn1jpBBgKaasvXGRxpA6oFSLw+rs4gPsr/cHZFMfbpE3xoBNWa9m4aIiOM+6cxna5mGqqYyqZE1Tg5YVl6kV/8pXReTPrMFje2xeNNyPd8v14zWuDkQXGRMRYxjcGoV3gNMJ/nuz6Q56nqQWOSI+atDPY8cEJ7OGYI7IZt3SLXdqJIEGxd9WxkMdo270SoflYsCQlqZmtv+E5JScdHjUrIioR2Vzwz/wwcQSdBXTVliiLFbD3iQ6hog/P7rMZBXILb8SCewwcDgoDIqZI5Kmu7lGmlMlVw9DuncwX8KMChUAJBdw0QxF1V2QuEsxDiM0vIuhBGrabr6BPX4WnDWpnQZxak+dnxgqVe96vMzTeOCK8YXbi04JXMbyhZkDl73gx+bNNk5FDaRhFcwbTXPdoc5WnWNG2+tadvCZFcLqeYBAVOR/SuEII1R4vp+lNVIaaeVGPU1vTJb/pZlhKVPxQxxbL0mCiK5w1EmUje33xUSdntFFoK8CLa3At3SWhfia2iiV50KaD+HBggbTZEe1sKvaPHsuDkSNFUeF3E12htjfcLTdCXMHFGypMbjWCnH6AbeCx3ZlSuImnIGsmZzt0XkMGdGZlYJT/cUcj0UiIPJuLCK5cCmivznJ0ZB+DJQB2TAVESU0Oiqm1JB2pFrHsqSG9QO4c1gOp1CtCBqVgbuHKoq7j7YigXJdgO/EzF4gRgtKY7NtYYMmA7N1JhII1EDXRi0/WrjmWVMlZpfx3Wn3g7nu87VwVj+63qjH8HtbX1BVVCCCFY9Xq7MlaB9Xp5x4fNJz6RlcfWq7ugel9bG4Fhc2OiX18mnRWizmnNSJJYJArNb9Ajy6I4KzZmiWLCHvao5s4+qu09lP6sQl8vij3bAQK4CIerpbdf2yiN/z2aYACAr6/bcwy8ffhr+Cy7ht4BEAVFMwH/5jaC+QR5v8LHQ1YmH9+QaqAVlYX/jgbIj6EgzZVF4dOX4i78TVV6mA1nd7LPuMu471t+iJQjr/Imfw8/CGowugFZmEUQniRgDThQSwzAAIBOIZQwMIUhju1TOEw82L+FbEoEW/HYjjyGUwZTcYD4k3AKh7FrB3biKAwUsAVDDMzAgf2Jv99knMC2IziwD9uymg1UCnqHUThvqT1nL3ZtRXq7uDcis3FkOWq0scJ7h4v5uyr6vxpw4cLByCJs2HBhYzRclGGg0Jh+3Jw9FkYjckjRXKesdG/+ESfPIQAAAAA=) format("woff2");
+    }
+    .fa-solid,.fas{font-family:"Font Awesome 6 Free";font-weight:900;}
+    .fa-solid,.fas,.fa{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:var(--fa-display,inline-block);font-style:normal;font-variant:normal;line-height:1;text-rendering:auto;}
+    .fa-calculator:before{content:"\f1ec";}
+    .fa-chart-bar:before{content:"\f080";}
+    .fa-circle-info:before{content:"\f05a";}
+    .fa-clipboard-list:before{content:"\f46d";}
+    .fa-file-arrow-up:before{content:"\f574";}
+    .fa-file-excel:before{content:"\f1c3";}
+    .fa-file-lines:before{content:"\f15c";}
+    .fa-file-medical:before{content:"\f477";}
+    .fa-file-pdf:before{content:"\f1c1";}
+    .fa-image:before{content:"\f03e";}
+    .fa-magnifying-glass:before{content:"\f002";}
+    .fa-moon:before{content:"\f186";}
+    .fa-notes-medical:before{content:"\f481";}
+    .fa-trash:before{content:"\f1f8";}
+    .fa-triangle-exclamation:before{content:"\f071";}
+    .fa-user:before{content:"\f007";}
+    </style>
+    <style>
+        
+        /* 批量處理樣式 */body {
+            font-family: 'Microsoft JhengHei', Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f7f7f7;
+            min-height: 100vh;
+        }
+        
+        @media (max-width: 768px) {
+            .patient-info {
+                grid-template-columns: 1fr;
+            }
+            
+            .parameter-row {
+                grid-template-columns: 1fr;
+                gap: 10px;
+                text-align: center;
+            }
+            
+            .parameter-guide {
+                grid-template-columns: 1fr;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .batch-actions {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .results-summary {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2c3e50, #34495e);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .title {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .assessment-form {
+            margin-bottom: 0;
+        }
+        
+        .patient-info {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+        
+        .info-group {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .info-label {
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #2c3e50;
+        }
+        
+        .info-input {
+            padding: 10px;
+            border: 2px solid #e9ecef;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        
+        .parameter-section {
+            margin-bottom: 30px;
+            border: 2px solid #e9ecef;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+        
+        .parameter-header {
+            background: #87aabd;
+            color: rgb(252, 251, 251);
+            padding: 15px 20px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        
+        .parameter-content {
+            padding: 20px;
+        }
+        
+        .parameter-row {
+            display: grid;
+            grid-template-columns: 1fr 150px 80px 100px;
+            gap: 15px;
+            align-items: center;
+            padding: 15px 0;
+            border-bottom: 1px solid #e9ecef;
+        }
+        
+        .parameter-row:last-child {
+            border-bottom: none;
+        }
+        
+        .parameter-label {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        .parameter-input {
+            padding: 8px 12px;
+            border: 2px solid #e9ecef;
+            border-radius: 5px;
+            font-size: 14px;
+            text-align: center;
+        }
+        
+        .parameter-score {
+            background: #f8f9fa;
+            padding: 8px;
+            border-radius: 5px;
+            text-align: center;
+            font-weight: bold;
+            color: #495057;
+        }
+        
+        .calculate-btn {
+            background: #FF8C73;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            display: block;
+            margin: 30px auto;
+        }
+        
+        .calculate-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(231, 76, 60, 0.3);
+        }
+        
+        .calculate-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(231, 76, 60, 0.3);
+        }
+
+        .clear-data-btn {
+            background: #95a5a6;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            display: block;
+            margin: 15px auto 30px auto;
+        }
+
+        .clear-data-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 16px rgba(149, 165, 166, 0.3);
+            background: #7f8c8d;
+        }
+
+        .result-section {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 30px;
+            margin-top: 30px;
+            text-align: center;
+            display: none;
+        }
+        
+        .total-score {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        
+        .risk-level {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        
+        .recommendation {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .scale-visual {
+            margin: 30px 0;
+            height: 60px;
+            border-radius: 30px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .scale-segments {
+            display: flex;
+            height: 100%;
+        }
+        
+        .scale-segment {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 12px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+            /* 🔴 添加白色邊框 */
+            border-right: 1px solid white;
+        }
+
+        /* 🔴 添加：最後一個不需要右邊框 */
+        .scale-segment:last-child {
+            border-right: none;
+        }
+        
+        .seg-0 { background: #4A8F8F; }   /* 比基準點更深的低風險 */
+        .seg-1 { background: #4F9494; }   /* 低風險過渡 */
+        .seg-2 { background: #549A9A; }   /* 低風險基準點 */
+        .seg-3 { background: #6FA2A2; }   /* 低→中過渡 */
+        .seg-4 { background: #8AABAA; }   /* 低→中過渡 */
+        .seg-5 { background: #A5B3B2; }   /* 低→中過渡 */
+        .seg-6 { background: #B6BAB1; }   /* 接近中風險 */
+        .seg-7 { background: #C8C0B1; }   /* 中風險基準點 */
+        .seg-8 { background: #D0B8A8; }   /* 中→高過渡 */
+        .seg-9 { background: #D8B09F; }   /* 中→高過渡 */
+        .seg-10 { background: #E0A896; }  /* 中→高過渡 */
+        .seg-11 { background: #E3A080; }  /* 中→高過渡 */
+        .seg-12 { background: #E5846E; }  /* 高風險基準點 */
+        .seg-13 { background: #E27A64; }  /* 高風險過渡 */
+        .seg-14 { background: #DF705A; }  /* 最高風險 */
+                
+        .score-indicator {
+            position: absolute;
+            top: -10px;
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 15px solid #2c3e50;
+            transform: translateX(-50%);
+            transition: left 0.5s ease;
+        }
+        
+        .scoring-guide {
+            margin-top: 40px;
+            padding: 25px;
+            background: #e8f4fd;
+            border-radius: 15px;
+            border-left: 6px solid #3498db;
+        }
+        
+        .guide-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .guide-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        
+        .guide-table th {
+            background: #87aabd;
+            color: white;
+            padding: 12px;
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        .guide-table td {
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #bdc3c7;
+        }
+        
+        .guide-table tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+        
+        .parameter-guide {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .guide-item {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+        
+        .guide-item-title {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            text-align: center;
+            font-size: 16px;
+            border-bottom: 2px solid;     /* 添加底線 */
+            padding-bottom: 8px;          /* 文字與底線的間距 */
+        }
+
+        /* 為不同項目設定不同的底線顏色 */
+        .guide-item:nth-child(1) .guide-item-title {
+            border-bottom-color: #838383;  /* 紅色底線 - ODI 3% */
+        }
+
+        .guide-item:nth-child(2) .guide-item-title {
+            border-bottom-color: #838383;  /* 橘色底線 - 最小SpO2 */
+        }
+
+        .guide-item:nth-child(3) .guide-item-title {
+            border-bottom-color: #838383;  /* 黃色底線 - HBI */
+        }
+        
+        .guide-item-content {
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        
+        /* 分頁樣式 */
+        .tab-container {
+            margin-bottom: 30px;
+        }
+        
+        .tab-buttons {
+            display: flex;
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 5px;
+            margin-bottom: 30px;
+        }
+        
+        .tab-button {
+            flex: 1;
+            padding: 15px 20px;
+            background: transparent;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            color: #7f8c8d;
+        }
+        
+        .tab-button.active {
+            background: #6C838F;
+            color: white;
+            box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
+        }
+        
+        .tab-button:hover:not(.active) {
+            background: #e9ecef;
+            color: #2c3e50;
+        }
+        
+        .tab-content {
+            display: none;
+        }
+        
+        .tab-content.active {
+            display: block;
+            animation: fadeIn 0.3s ease-in-out;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .batch-processing-section {
+            padding: 30px;
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            border-radius: 20px;
+            border: 3px dashed #3498db;
+        }
+        
+        .section-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .section-header h3 {
+            color: #2c3e50;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        
+        .section-header p {
+            color: #7f8c8d;
+            font-size: 16px;
+        }
+        
+        .upload-area {
+            background: white;
+            border: 3px dashed #3498db;
+            border-radius: 15px;
+            padding: 40px;
+            text-align: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .upload-area:hover {
+            border-color: #2980b9;
+            background: #f8f9fa;
+        }
+        
+        .upload-area.dragover {
+            border-color: #e74c3c;
+            background: #fdf2f2;
+        }
+        
+        .upload-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .upload-icon {
+            font-size: 48px;
+            color: #3498db;
+        }
+        
+        .upload-text {
+            color: #2c3e50;
+            line-height: 1.6;
+        }
+        
+        .upload-btn {
+            background: linear-gradient(135deg, #3498db, #2980b9);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        
+        .upload-btn:hover {
+            transform: translateY(-2px);
+        }
+        
+        .file-list {
+            margin-top: 30px;
+            padding: 20px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .file-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px;
+            margin: 10px 0;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border-left: 4px solid #3498db;
+        }
+        
+        .file-info {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .file-status {
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        
+        .status-pending {
+            background: #fef9e7;
+            color: #f39c12;
+        }
+        
+        .status-processing {
+            background: #e3f2fd;
+            color: #2196f3;
+        }
+        
+        .status-success {
+            background: #e8f5e8;
+            color: #4caf50;
+        }
+        
+        .status-error {
+            background: #ffebee;
+            color: #f44336;
+        }
+        
+        .batch-actions {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+            justify-content: center;
+        }
+        
+        .process-btn, .clear-btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 20px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        
+        .process-btn {
+            background: linear-gradient(135deg, #27ae60, #2ecc71);
+            color: white;
+        }
+        
+        .clear-btn {
+            background: linear-gradient(135deg, #95a5a6, #7f8c8d);
+            color: white;
+        }
+        
+        .process-btn:hover, .clear-btn:hover {
+            transform: translateY(-2px);
+        }
+        
+        .batch-results {
+            margin-top: 30px;
+            padding: 25px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .results-summary {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .summary-card {
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            border-left: 4px solid;
+        }
+        
+        .summary-card.no-risk {
+            border-left-color: #549A9A;
+        }
+        
+        .summary-card.medium-risk {
+            border-left-color: #C8C0B1;
+        }
+        
+        .summary-card.high-risk {
+            border-left-color: #E5846E;
+        }
+        
+        .summary-number {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .summary-label {
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+        
+        .results-table {
+            overflow-x: auto;
+        }
+        
+        .results-table table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        
+        .results-table th {
+            background: #3498db;
+            color: white;
+            padding: 12px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        
+        .results-table td {
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #bdc3c7;
+            font-size: 14px;
+        }
+        
+        .results-table tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+        
+        .risk-badge {
+            padding: 8px 8px;         /* 增加內邊距 */
+            border-radius: 12px;        /* 圓角 */
+            font-size: 13px;            /* 稍微增大字體 */
+            font-weight: bold;
+            display: inline-block;
+            text-align: center;
+            line-height: 1;             /* 單行顯示 */
+            min-width: 30px;            /* 適合三個字的寬度 */
+            white-space: nowrap;        /* 防止換行 */
+            vertical-align: middle;
+        }
+        
+        .risk-badge.no-risk {
+            background: #549A9A;
+            color: #ffffff;
+        }
+        
+        .risk-badge.medium-risk {
+            background: #e2ddd4;
+            color: #666461;
+        }
+        
+        .risk-badge.high-risk {
+            background: #fccabf;
+            color: #cf6d56;
+        }
+        
+        .divider {
+            text-align: center;
+            margin: 40px 0;
+            padding: 20px;
+            color: #7f8c8d;
+            font-size: 18px;
+            font-weight: bold;
+            position: relative;
+        }
+        
+        .divider::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #bdc3c7, transparent);
+        }
+        
+        .divider span {
+            background: white;
+            padding: 0 20px;
+        }
+
+        .export-excel-btn {
+            background: linear-gradient(135deg, #2ecc71, #27ae60);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .export-excel-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 16px rgba(46, 204, 113, 0.3);
+        }
+
+        .progress-container {
+            margin-top: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border-left: 4px solid #3498db;
+        }
+
+        .progress-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .progress-info span:first-child {
+            color: #2c3e50;
+            font-size: 16px;
+        }
+
+        .progress-info span:last-child {
+            color: #3498db;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 20px;
+            background: #e9ecef;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #3498db, #2ecc71);
+            border-radius: 10px;
+            transition: width 0.3s ease;
+            width: 0%;
+            position: relative;
+        }
+
+        .progress-fill::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, 
+                rgba(255,255,255,0.2) 25%, 
+                transparent 25%, 
+                transparent 50%, 
+                rgba(255,255,255,0.2) 50%, 
+                rgba(255,255,255,0.2) 75%, 
+                transparent 75%, 
+                transparent);
+            background-size: 20px 20px;
+            animation: progress-stripes 1s linear infinite;
+        }
+
+        @keyframes progress-stripes {
+            0% { background-position: 0 0; }
+            100% { background-position: 20px 0; }
+        }
+
+        .progress-details {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #7f8c8d;
+            text-align: center;
+            line-height: 1.4;
+        }
+
+        .progress-details .current-file {
+            color: #2c3e50;
+            font-weight: bold;
+        }
+
+        .file-scroll-container {
+            max-height: 400px; /* 大約可顯示10個文件項目的高度 */
+            overflow-y: auto;
+            overflow-x: hidden;
+            border: 1px solid #e9ecef;
+            border-radius: 10px;
+            background: #f8f9fa;
+            padding: 5px;
+        }
+
+        /* 自定義滾動條樣式 */
+        .file-scroll-container::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .file-scroll-container::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 4px;
+        }
+
+        .file-scroll-container::-webkit-scrollbar-thumb {
+            background: #3498db;
+            border-radius: 4px;
+            transition: background 0.3s ease;
+        }
+
+        .file-scroll-container::-webkit-scrollbar-thumb:hover {
+            background: #2980b9;
+        }
+
+        /* 滾動提示 */
+        .file-scroll-container::after {
+            content: '';
+            display: block;
+            height: 1px;
+        }
+
+        /* 當文件超過容器高度時顯示漸變效果 */
+        .file-scroll-container.has-scroll {
+            position: relative;
+        }
+
+        .file-scroll-container.has-scroll::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 8px; /* 避免覆蓋滾動條 */
+            height: 20px;
+            background: linear-gradient(transparent, rgba(248, 249, 250, 0.8));
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        /* 優化文件項目在滾動容器中的顯示 */
+        .file-scroll-container .file-item {
+            margin: 5px;
+            background: white;
+        }
+
+        .file-scroll-container .file-item:hover {
+            transform: none; /* 在滾動容器中不要有過多的動畫效果 */
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .export-image-btn {
+            background: linear-gradient(135deg, #3498db, #2980b9);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            display: block;
+            margin: 15px auto;
+        }
+
+        .export-image-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 16px rgba(52, 152, 219, 0.3);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="title">OSA風險評估量表</div>
+            <div class="subtitle">阻塞性睡眠呼吸中止症篩檢工具</div>
+        </div>
+        
+        <div class="content">
+            <!-- 分頁容器 -->
+            <div class="tab-container">
+                <div class="tab-buttons">
+                    <button class="tab-button active" onclick="switchTab('psqi')">
+                        <i class="fa-solid fa-moon"></i> PSQI 睡眠品質
+                    </button>
+                    <button class="tab-button" onclick="switchTab('single')">
+                        <i class="fa-solid fa-user"></i> 單一檢測
+                    </button>
+                    <button class="tab-button" onclick="switchTab('batch')">
+                        <i class="fa-solid fa-file-lines"></i> 批量分析
+                    </button>
+                    <button class="tab-button" onclick="switchTab('questionnaire')">
+                        <i class="fa-solid fa-clipboard-list"></i> 鑑別診斷問卷
+                    </button>
+                </div>
+
+                <!-- PSQI 睡眠品質問卷分頁 -->
+                <div id="psqiTab" class="tab-content active">
+                    <div class="batch-processing-section" style="border-color: #3498db;">
+                        <div class="section-header">
+                            <h3><i class="fa-solid fa-moon"></i> 匹茲堡睡眠品質量表</h3>
+                            <p>Pittsburgh Sleep Quality Index - 評估過去一個月的睡眠品質</p>
+                        </div>
+                        
+                        <div style="background: #e3f2fd; padding: 15px; border-radius: 10px; margin-bottom: 20px; border-left: 4px solid #2196f3;">
+                            <strong><i class="fa-solid fa-circle-info"></i> 填寫說明：</strong>以下問題詢問您過去一個月的睡眠習慣，請根據過去一個月大多數日子的情況回答。
+                        </div>
+                        
+                        <!-- 患者資訊 -->
+                        <div class="patient-info" style="margin-bottom: 20px;">
+                            <div class="info-group">
+                                <label class="info-label">姓名：</label>
+                                <input type="text" class="info-input" id="psqiPatientName" placeholder="請輸入姓名">
+                            </div>
+                            <div class="info-group">
+                                <label class="info-label">填寫日期：</label>
+                                <input type="date" class="info-input" id="psqiDate">
+                            </div>
+                        </div>
+                        
+                        <div class="psqi-questions">
+                            <!-- 組成要素一：主觀睡眠品質 -->
+                            <div class="question-group" style="margin: 20px 0; padding: 20px; background: #f8f9fa; border-radius: 10px; border-left: 4px solid #3498db;">
+                                <label style="font-weight: bold; color: #2c3e50; display: block; margin-bottom: 15px; font-size: 16px;">
+                                    1. 過去一個月，您認為自己的睡眠品質整體而言如何？
+                                </label>
+                                <div style="display: flex; flex-direction: column; gap: 10px;">
+                                    <label style="padding: 10px; background: white; border-radius: 5px; cursor: pointer;">
+                                        <input type="radio" name="psqi_q1" value="0"> 非常好
+                                    </label>
+                                    <label style="padding: 10px; background: white; border-radius: 5px; cursor: pointer;">
+                                        <input type="radio" name="psqi_q1" value="1"> 還好
+                                    </label>
+                                    <label style="padding: 10px; background: white; border-radius: 5px; cursor: pointer;">
+                                        <input type="radio" name="psqi_q1" value="2"> 不好
+                                    </label>
+                                    <label style="padding: 10px; background: white; border-radius: 5px; cursor: pointer;">
+                                        <input type="radio" name="psqi_q1" value="3"> 非常不好
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <!-- 組成要素二：入睡時間 -->
+                            <div class="question-group" style="margin: 20px 0; padding: 20px; background: #f8f9fa; border-radius: 10px; border-left: 4px solid #9b59b6;">
+                                <label style="font-weight: bold; color: #2c3e50; display: block; margin-bottom: 15px; font-size: 16px;">
+                                    2. 過去一個月，您通常需要多久時間才能入睡？
+                                </label>
+                                <div style="display: flex; flex-direction: column; gap: 10px;">
+                                    <label style="padding: 10px; background: white; border-radius: 5px; cursor: pointer;">
+                                        <input type="radio" name="psqi_q2" value="0"> 15 分鐘以內
+                                    </label>
+                                    <label style="padding: 10px; background: white; border-radius: 5px; cursor: pointer;">
+                                        <input type="radio" name="psqi_q2" value="1"> 16-30 分鐘
+                                    </label>
+                                    <label style="padding: 10px; background: white; border-radius: 5px; cursor: pointer;">
+                                        <input type="radio" name="psqi_q2" value="2"> 31-60 分鐘
+                                    </label>
+                                    <label style="padding: 10px; background: white; border-radius: 5px; cursor: pointer;">
+                                        <input type="radio" name="psqi_q2" value="3"> 超過 60 分鐘
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <!-- 組成要素三：睡眠時數 -->
+                            <div class="question-group" style="margin: 20px 0; padding: 20px; background: #f8f9fa; border-radius: 10px; border-left: 4px solid #e74c3c;">
+                                <label style="font-weight: bold; color: #2c3e50; display: block; margin-bottom: 15px; font-size: 16px;">
+                                    3. 過去一個月，您通常每晚實際睡眠時間有多長？（不包含躺在床上沒睡著的時間）
+                                </label>
+                                <div style="display: flex; flex-direction: column; gap: 10px;">
+                                    <label style="padding: 10px; background: white; border-radius: 5px; cursor: pointer;">
+                                        <input type="radio" name="psqi_q3" value="0"> 超過 7 小時
+                                    </label>
+                                    <label style="padding: 10px; background: white; border-radius: 5px; cursor: pointer;">
+                                        <input type="radio" name="psqi_q3" value="1"> 6-7 小時
+                                    </label>
+                                    <label style="padding: 10px; background: white; border-radius: 5px; cursor: pointer;">
+                                        <input type="radio" name="psqi_q3" value="2"> 5-6 小時
+                                    </label>
+                                    <label style="padding: 10px; background: white; border-radius: 5px; cursor: pointer;">
+                                        <input type="radio" name="psqi_q3" value="3"> 少於 5 小時
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <!-- 組成要素四：睡眠效率 -->
+                            <div class="question-group" style="margin: 20px 0; padding: 20px; background: #f8f9fa; border-radius: 10px; border-left: 4px solid #f39c12;">
+                                <label style="font-weight: bold; color: #2c3e50; display: block; margin-bottom: 15px; font-size: 16px;">
+                                    4. 過去一個月，您躺在床上的時間中，實際睡著的比例大約是多少？
+                                </label>
+                                <p style="color: #7f8c8d; font-size: 13px; margin-bottom: 10px;">睡眠效率 = 實際睡眠時間 ÷ 躺床時間 × 100%</p>
+                                <div style="display: flex; flex-direction: column; gap: 10px;">
+                                    <label style="padding: 10px; background: white; border-radius: 5px; cursor: pointer;">
+                                        <input type="radio" name="psqi_q4" value="0"> 85% 以上
+                                    </label>
+                                    <label style="padding: 10px; background: white; border-radius: 5px; cursor: pointer;">
+                                        <input type="radio" name="psqi_q4" value="1"> 75-84%
+                                    </label>
+                                    <label style="padding: 10px; background: white; border-radius: 5px; cursor: pointer;">
+                                        <input type="radio" name="psqi_q4" value="2"> 65-74%
+                                    </label>
+                                    <label style="padding: 10px; background: white; border-radius: 5px; cursor: pointer;">
+                                        <input type="radio" name="psqi_q4" value="3"> 少於 65%
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <!-- 組成要素五：睡眠困擾 -->
+                            <div class="question-group" style="margin: 20px 0; padding: 20px; background: #f8f9fa; border-radius: 10px; border-left: 4px solid #1abc9c;">
+                                <label style="font-weight: bold; color: #2c3e50; display: block; margin-bottom: 15px; font-size: 16px;">
+                                    5. 過去一個月，您有多常因為以下原因而睡不好？
+                                </label>
+                                <p style="color: #7f8c8d; font-size: 13px; margin-bottom: 15px;">0 = 過去一個月從未發生 | 1 = 每週少於一次 | 2 = 每週一至兩次 | 3 = 每週三次以上</p>
+                                
+                                <div style="overflow-x: auto;">
+                                    <table style="width: 100%; border-collapse: collapse; margin-top: 10px;">
+                                        <thead>
+                                            <tr style="background: #ecf0f1;">
+                                                <th style="padding: 10px; text-align: left; border: 1px solid #ddd;">睡眠困擾原因</th>
+                                                <th style="padding: 10px; text-align: center; border: 1px solid #ddd; width: 60px;">0</th>
+                                                <th style="padding: 10px; text-align: center; border: 1px solid #ddd; width: 60px;">1</th>
+                                                <th style="padding: 10px; text-align: center; border: 1px solid #ddd; width: 60px;">2</th>
+                                                <th style="padding: 10px; text-align: center; border: 1px solid #ddd; width: 60px;">3</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td style="padding: 10px; border: 1px solid #ddd;">a. 無法在 30 分鐘內入睡</td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5a" value="0"></td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5a" value="1"></td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5a" value="2"></td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5a" value="3"></td>
+                                            </tr>
+                                            <tr style="background: #f9f9f9;">
+                                                <td style="padding: 10px; border: 1px solid #ddd;">b. 半夜或凌晨醒來</td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5b" value="0"></td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5b" value="1"></td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5b" value="2"></td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5b" value="3"></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="padding: 10px; border: 1px solid #ddd;">c. 必須起床上廁所</td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5c" value="0"></td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5c" value="1"></td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5c" value="2"></td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5c" value="3"></td>
+                                            </tr>
+                                            <tr style="background: #f9f9f9;">
+                                                <td style="padding: 10px; border: 1px solid #ddd;">d. 呼吸不順暢</td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5d" value="0"></td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5d" value="1"></td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5d" value="2"></td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5d" value="3"></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="padding: 10px; border: 1px solid #ddd;">e. 咳嗽或大聲打鼾</td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5e" value="0"></td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5e" value="1"></td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5e" value="2"></td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5e" value="3"></td>
+                                            </tr>
+                                            <tr style="background: #f9f9f9;">
+                                                <td style="padding: 10px; border: 1px solid #ddd;">f. 感覺太冷</td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5f" value="0"></td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5f" value="1"></td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5f" value="2"></td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5f" value="3"></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="padding: 10px; border: 1px solid #ddd;">g. 感覺太熱</td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5g" value="0"></td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5g" value="1"></td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5g" value="2"></td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5g" value="3"></td>
+                                            </tr>
+                                            <tr style="background: #f9f9f9;">
+                                                <td style="padding: 10px; border: 1px solid #ddd;">h. 做惡夢</td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5h" value="0"></td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5h" value="1"></td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5h" value="2"></td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5h" value="3"></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="padding: 10px; border: 1px solid #ddd;">i. 疼痛不適</td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5i" value="0"></td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5i" value="1"></td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5i" value="2"></td>
+                                                <td style="text-align: center; border: 1px solid #ddd;"><input type="radio" name="psqi_q5i" value="3"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            
+                            <!-- 組成要素六：使用安眠藥物 -->
+                            <div class="question-group" style="margin: 20px 0; padding: 20px; background: #f8f9fa; border-radius: 10px; border-left: 4px solid #e67e22;">
+                                <label style="font-weight: bold; color: #2c3e50; display: block; margin-bottom: 15px; font-size: 16px;">
+                                    6. 過去一個月，您有多常需要服用藥物（處方藥或成藥）才能入睡？
+                                </label>
+                                <div style="display: flex; flex-direction: column; gap: 10px;">
+                                    <label style="padding: 10px; background: white; border-radius: 5px; cursor: pointer;">
+                                        <input type="radio" name="psqi_q6" value="0"> 過去一個月從未發生
+                                    </label>
+                                    <label style="padding: 10px; background: white; border-radius: 5px; cursor: pointer;">
+                                        <input type="radio" name="psqi_q6" value="1"> 每週少於一次
+                                    </label>
+                                    <label style="padding: 10px; background: white; border-radius: 5px; cursor: pointer;">
+                                        <input type="radio" name="psqi_q6" value="2"> 每週一至兩次
+                                    </label>
+                                    <label style="padding: 10px; background: white; border-radius: 5px; cursor: pointer;">
+                                        <input type="radio" name="psqi_q6" value="3"> 每週三次以上
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <!-- 組成要素七：日間功能障礙 -->
+                            <div class="question-group" style="margin: 20px 0; padding: 20px; background: #f8f9fa; border-radius: 10px; border-left: 4px solid #9b59b6;">
+                                <label style="font-weight: bold; color: #2c3e50; display: block; margin-bottom: 15px; font-size: 16px;">
+                                    7. 過去一個月，您有多常在開車、用餐或從事社交活動時，難以保持清醒？
+                                </label>
+                                <div style="display: flex; flex-direction: column; gap: 10px;">
+                                    <label style="padding: 10px; background: white; border-radius: 5px; cursor: pointer;">
+                                        <input type="radio" name="psqi_q7" value="0"> 過去一個月從未發生
+                                    </label>
+                                    <label style="padding: 10px; background: white; border-radius: 5px; cursor: pointer;">
+                                        <input type="radio" name="psqi_q7" value="1"> 每週少於一次
+                                    </label>
+                                    <label style="padding: 10px; background: white; border-radius: 5px; cursor: pointer;">
+                                        <input type="radio" name="psqi_q7" value="2"> 每週一至兩次
+                                    </label>
+                                    <label style="padding: 10px; background: white; border-radius: 5px; cursor: pointer;">
+                                        <input type="radio" name="psqi_q7" value="3"> 每週三次以上
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="question-group" style="margin: 20px 0; padding: 20px; background: #f8f9fa; border-radius: 10px; border-left: 4px solid #34495e;">
+                                <label style="font-weight: bold; color: #2c3e50; display: block; margin-bottom: 15px; font-size: 16px;">
+                                    8. 過去一個月，您有多常因為睡眠問題而影響到做事的熱忱？
+                                </label>
+                                <div style="display: flex; flex-direction: column; gap: 10px;">
+                                    <label style="padding: 10px; background: white; border-radius: 5px; cursor: pointer;">
+                                        <input type="radio" name="psqi_q8" value="0"> 完全沒有困難
+                                    </label>
+                                    <label style="padding: 10px; background: white; border-radius: 5px; cursor: pointer;">
+                                        <input type="radio" name="psqi_q8" value="1"> 只有很輕微的困難
+                                    </label>
+                                    <label style="padding: 10px; background: white; border-radius: 5px; cursor: pointer;">
+                                        <input type="radio" name="psqi_q8" value="2"> 有些困難
+                                    </label>
+                                    <label style="padding: 10px; background: white; border-radius: 5px; cursor: pointer;">
+                                        <input type="radio" name="psqi_q8" value="3"> 非常困難
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div style="text-align: center; margin-top: 30px;">
+                            <button class="calculate-btn" onclick="calculatePSQI()" style="background: #3498db;">
+                                <i class="fa-solid fa-calculator"></i> 計算 PSQI 分數
+                            </button>
+                            <button class="clear-data-btn" onclick="clearPSQI()">
+                                <i class="fa-solid fa-trash"></i> 清空問卷
+                            </button>
+                        </div>
+                        
+                        <!-- PSQI 結果區域 -->
+                        <div id="psqiResult" style="display: none; margin-top: 30px;">
+                            <div class="result-section" style="display: block;">
+                                <div id="psqiPatientInfoDisplay" style="margin-bottom: 20px; padding: 15px; background: #e8f4fd; border-radius: 10px; font-size: 14px;">
+                                    <strong>受測者：</strong><span id="displayPsqiName">-</span> | 
+                                    <strong>填寫日期：</strong><span id="displayPsqiDate">-</span>
+                                </div>
+                                
+                                <h3 style="color: #2c3e50; margin-bottom: 20px;">PSQI 評估結果</h3>
+                                
+                                <div class="total-score" id="psqiTotalScore" style="color: #3498db;">0</div>
+                                <div style="font-size: 16px; color: #7f8c8d; margin-bottom: 15px;">PSQI 總分（滿分 21 分）</div>
+                                
+                                <div class="scale-visual" style="margin: 20px 0;">
+                                    <div class="scale-segments">
+                                        <div style="flex: 5; background: #27ae60; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">0-5<br><small>良好</small></div>
+                                        <div style="flex: 5; background: #f39c12; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">6-10<br><small>輕度</small></div>
+                                        <div style="flex: 5; background: #e67e22; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">11-15<br><small>中度</small></div>
+                                        <div style="flex: 6; background: #c0392b; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">16-21<br><small>重度</small></div>
+                                    </div>
+                                    <div class="score-indicator" id="psqiScoreIndicator"></div>
+                                </div>
+                                
+                                <div class="risk-level" id="psqiLevel" style="color: #3498db;">-</div>
+                                
+                                <!-- 七大組成要素分數 -->
+                                <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; margin: 20px 0;">
+                                    <h4 style="margin-top: 0; color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px;"><i class="fa-solid fa-chart-bar"></i> 七大組成要素分數</h4>
+                                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-top: 15px;">
+                                        <div class="component-score" style="background: white; padding: 15px; border-radius: 8px; border-left: 4px solid #3498db;">
+                                            <div style="font-size: 12px; color: #7f8c8d;">C1 主觀睡眠品質</div>
+                                            <div style="font-size: 24px; font-weight: bold;" id="psqiC1">-</div>
+                                        </div>
+                                        <div class="component-score" style="background: white; padding: 15px; border-radius: 8px; border-left: 4px solid #9b59b6;">
+                                            <div style="font-size: 12px; color: #7f8c8d;">C2 入睡時間</div>
+                                            <div style="font-size: 24px; font-weight: bold;" id="psqiC2">-</div>
+                                        </div>
+                                        <div class="component-score" style="background: white; padding: 15px; border-radius: 8px; border-left: 4px solid #e74c3c;">
+                                            <div style="font-size: 12px; color: #7f8c8d;">C3 睡眠時數</div>
+                                            <div style="font-size: 24px; font-weight: bold;" id="psqiC3">-</div>
+                                        </div>
+                                        <div class="component-score" style="background: white; padding: 15px; border-radius: 8px; border-left: 4px solid #f39c12;">
+                                            <div style="font-size: 12px; color: #7f8c8d;">C4 睡眠效率</div>
+                                            <div style="font-size: 24px; font-weight: bold;" id="psqiC4">-</div>
+                                        </div>
+                                        <div class="component-score" style="background: white; padding: 15px; border-radius: 8px; border-left: 4px solid #1abc9c;">
+                                            <div style="font-size: 12px; color: #7f8c8d;">C5 睡眠困擾</div>
+                                            <div style="font-size: 24px; font-weight: bold;" id="psqiC5">-</div>
+                                        </div>
+                                        <div class="component-score" style="background: white; padding: 15px; border-radius: 8px; border-left: 4px solid #e67e22;">
+                                            <div style="font-size: 12px; color: #7f8c8d;">C6 安眠藥物</div>
+                                            <div style="font-size: 24px; font-weight: bold;" id="psqiC6">-</div>
+                                        </div>
+                                        <div class="component-score" style="background: white; padding: 15px; border-radius: 8px; border-left: 4px solid #34495e;">
+                                            <div style="font-size: 12px; color: #7f8c8d;">C7 日間功能障礙</div>
+                                            <div style="font-size: 24px; font-weight: bold;" id="psqiC7">-</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="recommendation" id="psqiRecommendation">
+                                    <h4 style="margin-top: 0; color: #2c3e50;"><i class="fa-solid fa-notes-medical"></i> 評估說明與建議</h4>
+                                    <p id="psqiRecommendationText">請先完成問卷</p>
+                                </div>
+                                
+                                <button class="export-image-btn" onclick="exportPSQIAsImage()" style="margin-top: 20px;">
+                                    <i class="fa-solid fa-image"></i> 匯出結果圖片
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 單一檢測分頁 -->
+                <div id="singleTab" class="tab-content">
+                    <div class="assessment-form">
+                        <div class="patient-info">
+                            <div class="info-group">
+                                <label class="info-label">姓名：</label>
+                                <input type="text" class="info-input" id="patientName" placeholder="請輸入姓名">
+                            </div>
+                            <div class="info-group">
+                                <label class="info-label">檢查日期：</label>
+                                <input type="date" class="info-input" id="assessmentDate">
+                            </div>
+                        </div>
+                        
+                        <div class="parameter-section">
+                            <div class="parameter-header">ODI 3% (氧氣不飽和指數)</div>
+                            <div class="parameter-content">
+                                <div class="parameter-row">
+                                    <div class="parameter-label">ODI 3% 數值</div>
+                                    <input type="number" class="parameter-input" id="odi3" placeholder="輸入數值" min="0" max="100">
+                                    <div class="parameter-score" id="odi3Score">0</div>
+                                    <div style="font-size: 12px; color: #7f8c8d;">最重要指標</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="parameter-section">
+                            <div class="parameter-header">最小血氧飽和度 (SpO2)</div>
+                            <div class="parameter-content">
+                                <div class="parameter-row">
+                                    <div class="parameter-label">最小 SpO2 (%)</div>
+                                    <input type="number" class="parameter-input" id="minSpo2" placeholder="輸入百分比" min="0" max="100">
+                                    <div class="parameter-score" id="spo2Score">0</div>
+                                    <div style="font-size: 12px; color: #7f8c8d;">次重要指標</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="parameter-section">
+                            <div class="parameter-header">HBI (低氧負擔指數)</div>
+                            <div class="parameter-content">
+                                <div class="parameter-row">
+                                    <div class="parameter-label">HBI (%min/h)</div>
+                                    <input type="number" class="parameter-input" id="hbi" placeholder="輸入數值" min="0" max="300" step="0.1">
+                                    <div class="parameter-score" id="hbiScore">0</div>
+                                    <div style="font-size: 12px; color: #7f8c8d;">輔助指標</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="calculate-btn" onclick="calculateRisk()">計算風險等級</button>
+                        <button class="clear-data-btn" onclick="clearSingleAssessmentData()"><i class="fa-solid fa-trash"></i> 清空數據</button>
+                    </div>
+                    
+                    <div class="result-section" id="resultSection">
+                        <div id="patientInfoForExport" style="margin-bottom: 20px; padding: 15px; background: #e8f4fd; border-radius: 10px; font-size: 14px;">
+                            <strong>患者：</strong><span id="displayPatientName">-</span> | 
+                            <strong>檢查日期：</strong><span id="displayAssessmentDate">-</span>
+                        </div>
+                        <h3 style="color: #2c3e50; margin-bottom: 20px;">評估結果</h3>
+                        <div class="total-score" id="totalScore">0</div>
+                        <div style="font-size: 16px; color: #7f8c8d; margin-bottom: 15px;">總分</div>
+                        
+                        <div class="scale-visual">
+                            <div class="scale-segments">
+                                <div class="scale-segment seg-0" style="flex: 2;">0-1<br><small>正常</small></div>
+                                <div class="scale-segment seg-2" style="flex: 3;">2-4<br><small>潛在</small></div>
+                                <div class="scale-segment seg-4" style="flex: 4;">5-8<br><small>輕度</small></div>
+                                <div class="scale-segment seg-7" style="flex: 4;">9-12<br><small>中度</small></div>
+                                <div class="scale-segment seg-11" style="flex: 4;">13-16<br><small>高度</small></div>
+                                <div class="scale-segment seg-14" style="flex: 4;">17-20<br><small>重度</small></div>
+                            </div>
+                            <div class="score-indicator" id="scoreIndicator"></div>
+                        </div>
+                        
+                        <div class="risk-level" id="riskLevel">-</div>
+                        <div class="recommendation" id="recommendation">
+                            <h4 style="margin-top: 0; color: #2c3e50;"><i class="fa-solid fa-file-lines"></i> 評估說明</h4>
+                            <p id="descriptionText" style="margin-bottom: 15px; padding: 10px; background: #f0f0f0; border-radius: 8px;">請先進行評估</p>
+                            <h4 style="color: #2c3e50;"><i class="fa-solid fa-notes-medical"></i> 建議處置</h4>
+                            <p id="recommendationText">請先進行評估</p>
+                        </div>
+                        <button class="export-image-btn" onclick="exportResultAsImage()"><i class="fa-solid fa-image"></i> 匯出結果圖片</button>
+                    </div>
+                </div>
+                
+                <!-- 批量分析分頁 -->
+                <div id="batchTab" class="tab-content">
+                    <div class="batch-processing-section">
+                        <div class="section-header">
+                            <h3><i class="fa-solid fa-file-pdf"></i> 智能批量PDF分析</h3>
+                            <p>直接分析OSA檢測報告PDF，智能提取關鍵數據並計算風險等級</p>
+                        </div>
+                        
+                        <div class="upload-area" id="uploadArea">
+                            <div class="upload-content">
+                                <div class="upload-icon"><i class="fa-solid fa-file-arrow-up"></i></div>
+                                <div class="upload-text">
+                                    <strong>拖曳PDF文件到此處或點擊選擇</strong><br>
+                                    <span>支援多檔案同時上傳</span><br>
+                                    <small style="color: #7f8c8d;">系統會自動轉換PDF為Excel並讀取數據</small>
+                                </div>
+                                <input type="file" id="pdfFiles" multiple accept=".pdf" style="display: none;">
+                                <button class="upload-btn" onclick="document.getElementById('pdfFiles').click()">選擇PDF文件</button>
+                            </div>
+                        </div>
+                        
+                        <div class="file-list" id="fileList" style="display: none;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                                <h4 style="margin: 0;">已上傳的文件：</h4>
+                                <span id="fileCount" style="color: #7f8c8d; font-size: 14px;"></span>
+                            </div>
+                            <div class="file-scroll-container">
+                                <div id="uploadedFiles"></div>
+                            </div>
+                            <div class="batch-actions">
+                                <button class="process-btn" onclick="processPDFs()"><i class="fa-solid fa-magnifying-glass"></i> 開始分析</button>
+                                <button class="clear-btn" onclick="clearFiles()"><i class="fa-solid fa-trash"></i> 清空文件</button>
+                            </div>
+                            
+                            <!-- 添加進度條 -->
+                            <div class="progress-container" id="progressContainer" style="display: none;">
+                                <div class="progress-info">
+                                    <span id="progressText">準備中...</span>
+                                    <span id="progressPercent">0%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" id="progressFill"></div>
+                                </div>
+                                <div class="progress-details" id="progressDetails"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="batch-results" id="batchResults" style="display: none;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                                <h4 style="margin: 0;">分析結果：</h4>
+                                <button class="export-excel-btn" onclick="exportToExcel()"><i class="fa-solid fa-file-excel"></i> 匯出Excel</button>
+                            </div>
+                            <div class="results-summary" id="resultsSummary"></div>
+                            <div class="results-table" id="resultsTable"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 鑑別診斷問卷分頁 -->
+                <div id="questionnaireTab" class="tab-content">
+                    <div class="batch-processing-section" style="border-color: #9b59b6;">
+                        <div class="section-header">
+                            <h3><i class="fa-solid fa-clipboard-list"></i> 等級2「潛在風險」鑑別診斷問卷</h3>
+                            <p>當評估結果為「潛在風險」時，請填寫此問卷協助排除非 OSA 因素</p>
+                        </div>
+                        
+                        <div style="background: #fff3cd; padding: 15px; border-radius: 10px; margin-bottom: 20px; border-left: 4px solid #ffc107;">
+                            <strong><i class="fa-solid fa-triangle-exclamation"></i> 重要提醒：</strong>ODI 數值升高不一定代表阻塞性睡眠呼吸中止症（OSA），以下因素也可能導致 ODI 異常：鼻塞、過敏、慢性阻塞性肺病、心臟衰竭、高海拔環境、手環配戴不良、手腕刺青干擾等。
+                        </div>
+                        
+                        <div class="questionnaire-section">
+                            <h4 style="color: #2c3e50; border-bottom: 2px solid #9b59b6; padding-bottom: 10px;">B.1 問診評估</h4>
+                            
+                            <div class="question-group" style="margin: 20px 0; padding: 15px; background: #f8f9fa; border-radius: 10px;">
+                                <label style="font-weight: bold; color: #2c3e50; display: block; margin-bottom: 10px;">
+                                    1. 鼻塞症狀
+                                </label>
+                                <p style="color: #7f8c8d; font-size: 14px; margin-bottom: 10px;">是否有慢性鼻塞？單側或雙側？是否隨季節變化？</p>
+                                <div style="display: flex; gap: 15px; flex-wrap: wrap;">
+                                    <label><input type="radio" name="nasal" value="none"> 無鼻塞症狀</label>
+                                    <label><input type="radio" name="nasal" value="occasional"> 偶爾鼻塞</label>
+                                    <label><input type="radio" name="nasal" value="chronic"> 慢性鼻塞</label>
+                                    <label><input type="radio" name="nasal" value="seasonal"> 季節性鼻塞</label>
+                                </div>
+                                <textarea placeholder="補充說明（如：單側/雙側、持續時間等）" style="width: 100%; margin-top: 10px; padding: 10px; border: 1px solid #ddd; border-radius: 5px; min-height: 60px;"></textarea>
+                            </div>
+                            
+                            <div class="question-group" style="margin: 20px 0; padding: 15px; background: #f8f9fa; border-radius: 10px;">
+                                <label style="font-weight: bold; color: #2c3e50; display: block; margin-bottom: 10px;">
+                                    2. 過敏病史
+                                </label>
+                                <p style="color: #7f8c8d; font-size: 14px; margin-bottom: 10px;">是否有過敏性鼻炎？對什麼過敏？是否正在服用抗組織胺？</p>
+                                <div style="display: flex; gap: 15px; flex-wrap: wrap;">
+                                    <label><input type="radio" name="allergy" value="none"> 無過敏病史</label>
+                                    <label><input type="radio" name="allergy" value="rhinitis"> 過敏性鼻炎</label>
+                                    <label><input type="radio" name="allergy" value="other"> 其他過敏</label>
+                                </div>
+                                <textarea placeholder="補充說明（如：過敏原、目前用藥等）" style="width: 100%; margin-top: 10px; padding: 10px; border: 1px solid #ddd; border-radius: 5px; min-height: 60px;"></textarea>
+                            </div>
+                            
+                            <div class="question-group" style="margin: 20px 0; padding: 15px; background: #f8f9fa; border-radius: 10px;">
+                                <label style="font-weight: bold; color: #2c3e50; display: block; margin-bottom: 10px;">
+                                    3. 近期感染
+                                </label>
+                                <p style="color: #7f8c8d; font-size: 14px; margin-bottom: 10px;">檢測前是否有感冒或上呼吸道感染？</p>
+                                <div style="display: flex; gap: 15px; flex-wrap: wrap;">
+                                    <label><input type="radio" name="infection" value="none"> 無</label>
+                                    <label><input type="radio" name="infection" value="recent"> 檢測前 2 週內有感染</label>
+                                    <label><input type="radio" name="infection" value="during"> 檢測期間有感染症狀</label>
+                                </div>
+                                <textarea placeholder="補充說明（如：症狀、持續時間等）" style="width: 100%; margin-top: 10px; padding: 10px; border: 1px solid #ddd; border-radius: 5px; min-height: 60px;"></textarea>
+                            </div>
+                            
+                            <div class="question-group" style="margin: 20px 0; padding: 15px; background: #f8f9fa; border-radius: 10px;">
+                                <label style="font-weight: bold; color: #2c3e50; display: block; margin-bottom: 10px;">
+                                    4. 心肺疾病
+                                </label>
+                                <p style="color: #7f8c8d; font-size: 14px; margin-bottom: 10px;">是否有 COPD、氣喘、心臟衰竭等病史？</p>
+                                <div style="display: flex; gap: 15px; flex-wrap: wrap;">
+                                    <label><input type="radio" name="cardiopulmonary" value="none"> 無</label>
+                                    <label><input type="radio" name="cardiopulmonary" value="copd"> COPD</label>
+                                    <label><input type="radio" name="cardiopulmonary" value="asthma"> 氣喘</label>
+                                    <label><input type="radio" name="cardiopulmonary" value="heart"> 心臟疾病</label>
+                                    <label><input type="radio" name="cardiopulmonary" value="other"> 其他</label>
+                                </div>
+                                <textarea placeholder="補充說明（如：診斷時間、目前治療等）" style="width: 100%; margin-top: 10px; padding: 10px; border: 1px solid #ddd; border-radius: 5px; min-height: 60px;"></textarea>
+                            </div>
+                            
+                            <div class="question-group" style="margin: 20px 0; padding: 15px; background: #f8f9fa; border-radius: 10px;">
+                                <label style="font-weight: bold; color: #2c3e50; display: block; margin-bottom: 10px;">
+                                    5. 檢測狀況
+                                </label>
+                                <p style="color: #7f8c8d; font-size: 14px; margin-bottom: 10px;">手環是否配戴正確？手腕是否有刺青或其他干擾因素？</p>
+                                <div style="display: flex; gap: 15px; flex-wrap: wrap;">
+                                    <label><input type="radio" name="equipment" value="normal"> 配戴正常，無干擾因素</label>
+                                    <label><input type="radio" name="equipment" value="loose"> 配戴可能鬆脫</label>
+                                    <label><input type="radio" name="equipment" value="tattoo"> 手腕有刺青</label>
+                                    <label><input type="radio" name="equipment" value="other"> 其他問題（膚色深、毛髮多等）</label>
+                                </div>
+                                <textarea placeholder="補充說明（如：刺青位置、顏色深淺等）" style="width: 100%; margin-top: 10px; padding: 10px; border: 1px solid #ddd; border-radius: 5px; min-height: 60px;"></textarea>
+                            </div>
+                            
+                            <div class="question-group" style="margin: 20px 0; padding: 15px; background: #f8f9fa; border-radius: 10px;">
+                                <label style="font-weight: bold; color: #2c3e50; display: block; margin-bottom: 10px;">
+                                    6. OSA 典型症狀
+                                </label>
+                                <p style="color: #7f8c8d; font-size: 14px; margin-bottom: 10px;">是否有以下症狀？（可複選）</p>
+                                <div style="display: flex; gap: 15px; flex-wrap: wrap;">
+                                    <label><input type="checkbox" name="symptoms" value="snoring"> 明顯打鼾</label>
+                                    <label><input type="checkbox" name="symptoms" value="witnessed"> 被觀察到呼吸中止</label>
+                                    <label><input type="checkbox" name="symptoms" value="sleepy"> 日間嗜睡</label>
+                                    <label><input type="checkbox" name="symptoms" value="headache"> 晨起頭痛</label>
+                                    <label><input type="checkbox" name="symptoms" value="nocturia"> 夜尿頻繁</label>
+                                    <label><input type="checkbox" name="symptoms" value="none"> 以上皆無</label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div style="background: #e8f4fd; padding: 20px; border-radius: 10px; margin-top: 20px;">
+                            <h4 style="color: #2c3e50; margin-top: 0;">B.2 建議處置流程</h4>
+                            <ol style="line-height: 2; color: #2c3e50;">
+                                <li>若有明顯鼻塞 → <strong>轉介耳鼻喉科</strong>評估（鼻中膈、鼻甲肥大等）</li>
+                                <li>若有過敏症狀 → 建議<strong>過敏治療後 2-4 週</strong>重新檢測</li>
+                                <li>若近期有感染 → <strong>康復後 2 週</strong>重新檢測</li>
+                                <li>若排除上述因素後 ODI 仍異常 → <strong>升級為等級 3</strong>並進一步追蹤</li>
+                                <li>若合併明顯打鼾、日間嗜睡 → 即使 ODI 在邊緣值，仍建議<strong>進一步檢查</strong></li>
+                            </ol>
+                        </div>
+                        
+                        <div style="text-align: center; margin-top: 30px;">
+                            <button class="calculate-btn" onclick="generateQuestionnaireReport()" style="background: #9b59b6;">
+                                <i class="fa-solid fa-file-medical"></i> 產生鑑別診斷報告
+                            </button>
+                            <button class="clear-data-btn" onclick="clearQuestionnaire()">
+                                <i class="fa-solid fa-trash"></i> 清空問卷
+                            </button>
+                        </div>
+                        
+                        <div id="questionnaireResult" style="display: none; margin-top: 30px; padding: 20px; background: white; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                            <h4 style="color: #2c3e50; border-bottom: 2px solid #9b59b6; padding-bottom: 10px;"><i class="fa-solid fa-file-medical"></i> 鑑別診斷建議</h4>
+                            <div id="questionnaireReportContent"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // 載入PDF.js庫
+        const pdfScript = document.createElement('script');
+        pdfScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js';
+        document.head.appendChild(pdfScript);
+        
+        // 載入html2canvas庫
+        function loadHtml2Canvas() {
+            if (typeof html2canvas === 'undefined') {
+                const script = document.createElement('script');
+                script.src = 'https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js';
+                script.onload = function() {
+                    console.log('html2canvas 庫載入完成');
+                };
+                document.head.appendChild(script);
+            }
+        }
+
+        // 頁面載入時載入庫
+        loadHtml2Canvas();
+
+        // 載入SheetJS庫用於Excel匯出
+        const xlsxScript = document.createElement('script');
+        xlsxScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js';
+        document.head.appendChild(xlsxScript);
+
+        // 設定今天的日期為預設值
+        document.getElementById('assessmentDate').valueAsDate = new Date();
+
+        // ========== PSQI 相關函數 ==========
+        // 設定 PSQI 填寫日期預設值
+        document.getElementById('psqiDate').valueAsDate = new Date();
+
+        function clearPSQI() {
+            // 清空所有 radio 選擇
+            document.querySelectorAll('#psqiTab input[type="radio"]').forEach(radio => {
+                radio.checked = false;
+            });
+            // 清空姓名
+            document.getElementById('psqiPatientName').value = '';
+            // 重設日期
+            document.getElementById('psqiDate').valueAsDate = new Date();
+            // 隱藏結果
+            document.getElementById('psqiResult').style.display = 'none';
+        }
+
+        function calculatePSQI() {
+            // 取得各題分數
+            const q1 = parseInt(document.querySelector('input[name="psqi_q1"]:checked')?.value ?? -1);
+            const q2 = parseInt(document.querySelector('input[name="psqi_q2"]:checked')?.value ?? -1);
+            const q3 = parseInt(document.querySelector('input[name="psqi_q3"]:checked')?.value ?? -1);
+            const q4 = parseInt(document.querySelector('input[name="psqi_q4"]:checked')?.value ?? -1);
+            const q5a = parseInt(document.querySelector('input[name="psqi_q5a"]:checked')?.value ?? -1);
+            const q5b = parseInt(document.querySelector('input[name="psqi_q5b"]:checked')?.value ?? -1);
+            const q5c = parseInt(document.querySelector('input[name="psqi_q5c"]:checked')?.value ?? -1);
+            const q5d = parseInt(document.querySelector('input[name="psqi_q5d"]:checked')?.value ?? -1);
+            const q5e = parseInt(document.querySelector('input[name="psqi_q5e"]:checked')?.value ?? -1);
+            const q5f = parseInt(document.querySelector('input[name="psqi_q5f"]:checked')?.value ?? -1);
+            const q5g = parseInt(document.querySelector('input[name="psqi_q5g"]:checked')?.value ?? -1);
+            const q5h = parseInt(document.querySelector('input[name="psqi_q5h"]:checked')?.value ?? -1);
+            const q5i = parseInt(document.querySelector('input[name="psqi_q5i"]:checked')?.value ?? -1);
+            const q6 = parseInt(document.querySelector('input[name="psqi_q6"]:checked')?.value ?? -1);
+            const q7 = parseInt(document.querySelector('input[name="psqi_q7"]:checked')?.value ?? -1);
+            const q8 = parseInt(document.querySelector('input[name="psqi_q8"]:checked')?.value ?? -1);
+            
+            // 檢查是否所有必填題目都已作答
+            const allAnswers = [q1, q2, q3, q4, q5a, q5b, q5c, q5d, q5e, q5f, q5g, q5h, q5i, q6, q7, q8];
+            if (allAnswers.some(a => a === -1)) {
+                alert('請完成所有題目後再計算分數！');
+                return;
+            }
+            
+            // 計算七大組成要素
+            // C1: 主觀睡眠品質 (第1題)
+            const C1 = q1;
+            
+            // C2: 入睡時間 (第2題)
+            const C2 = q2;
+            
+            // C3: 睡眠時數 (第3題)
+            const C3 = q3;
+            
+            // C4: 睡眠效率 (第4題)
+            const C4 = q4;
+            
+            // C5: 睡眠困擾 (第5題所有子題加總後轉換)
+            const q5Sum = q5a + q5b + q5c + q5d + q5e + q5f + q5g + q5h + q5i;
+            let C5;
+            if (q5Sum === 0) C5 = 0;
+            else if (q5Sum <= 9) C5 = 1;
+            else if (q5Sum <= 18) C5 = 2;
+            else C5 = 3;
+            
+            // C6: 使用安眠藥物 (第6題)
+            const C6 = q6;
+            
+            // C7: 日間功能障礙 (第7題 + 第8題加總後轉換)
+            const q78Sum = q7 + q8;
+            let C7;
+            if (q78Sum === 0) C7 = 0;
+            else if (q78Sum <= 2) C7 = 1;
+            else if (q78Sum <= 4) C7 = 2;
+            else C7 = 3;
+            
+            // 計算總分
+            const totalScore = C1 + C2 + C3 + C4 + C5 + C6 + C7;
+            
+            // 判斷等級
+            let level, levelColor, recommendation;
+            if (totalScore <= 5) {
+                level = '睡眠品質良好';
+                levelColor = '#27ae60';
+                recommendation = '您的睡眠品質良好！請繼續維持良好的睡眠習慣，包括規律作息、適度運動、避免睡前使用3C產品等。';
+            } else if (totalScore <= 10) {
+                level = '輕度睡眠障礙';
+                levelColor = '#f39c12';
+                recommendation = '您有輕度睡眠問題。建議：(1) 維持規律作息時間；(2) 睡前避免咖啡因和酒精；(3) 創造舒適的睡眠環境；(4) 如持續困擾，建議諮詢醫師。';
+            } else if (totalScore <= 15) {
+                level = '中度睡眠障礙';
+                levelColor = '#e67e22';
+                recommendation = '您有中度睡眠問題，建議尋求專業協助。可考慮：(1) 睡眠衛生教育；(2) 認知行為治療；(3) 排除其他影響睡眠的健康問題；(4) 建議進一步進行睡眠檢測。';
+            } else {
+                level = '重度睡眠障礙';
+                levelColor = '#c0392b';
+                recommendation = '您有嚴重的睡眠問題，強烈建議就醫評估。(1) 建議轉介睡眠專科；(2) 可能需要進行多頻道睡眠檢查(PSG)；(3) 評估是否有睡眠呼吸中止症或其他睡眠疾病；(4) 可能需要藥物或其他治療介入。';
+            }
+            
+            // 更新顯示
+            document.getElementById('psqiTotalScore').textContent = totalScore;
+            document.getElementById('psqiTotalScore').style.color = levelColor;
+            document.getElementById('psqiLevel').textContent = level;
+            document.getElementById('psqiLevel').style.color = levelColor;
+            
+            // 更新組成要素分數
+            document.getElementById('psqiC1').textContent = C1;
+            document.getElementById('psqiC2').textContent = C2;
+            document.getElementById('psqiC3').textContent = C3;
+            document.getElementById('psqiC4').textContent = C4;
+            document.getElementById('psqiC5').textContent = C5;
+            document.getElementById('psqiC6').textContent = C6;
+            document.getElementById('psqiC7').textContent = C7;
+            
+            // 更新建議
+            document.getElementById('psqiRecommendationText').textContent = recommendation;
+            
+            // 更新指示器位置
+            const indicator = document.getElementById('psqiScoreIndicator');
+            const position = (totalScore / 21) * 100;
+            indicator.style.left = position + '%';
+            
+            // 更新患者資訊顯示
+            document.getElementById('displayPsqiName').textContent = 
+                document.getElementById('psqiPatientName').value || '未填寫';
+            document.getElementById('displayPsqiDate').textContent = 
+                document.getElementById('psqiDate').value || '未填寫';
+            
+            // 顯示結果
+            document.getElementById('psqiResult').style.display = 'block';
+            document.getElementById('psqiResult').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        async function exportPSQIAsImage() {
+            const resultElement = document.querySelector('#psqiResult .result-section');
+            
+            if (!resultElement) {
+                alert('請先計算 PSQI 分數！');
+                return;
+            }
+            
+            try {
+                if (typeof html2canvas === 'undefined') {
+                    alert('圖片匯出功能正在載入中，請稍後再試...');
+                    return;
+                }
+                
+                const patientName = document.getElementById('psqiPatientName').value || '未知';
+                const psqiDate = document.getElementById('psqiDate').value || '未知日期';
+                
+                const options = {
+                    backgroundColor: '#ffffff',
+                    scale: 2,
+                    useCORS: true,
+                    allowTaint: true
+                };
+                
+                const canvas = await html2canvas(resultElement, options);
+                
+                const link = document.createElement('a');
+                link.download = `PSQI睡眠品質評估_${patientName}_${psqiDate}.png`;
+                link.href = canvas.toDataURL('image/png');
+                
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                
+            } catch (error) {
+                console.error('匯出圖片時發生錯誤:', error);
+                alert('匯出圖片失敗，請重試！');
+            }
+        }
+        
+        // 清空單一檢測數據的函數
+        function clearSingleAssessmentData() {
+            // 清空輸入欄位
+            document.getElementById('patientName').value = '';
+            document.getElementById('odi3').value = '';
+            document.getElementById('minSpo2').value = '';
+            document.getElementById('hbi').value = '';
+            
+            // 重置分數顯示
+            document.getElementById('odi3Score').textContent = '0';
+            document.getElementById('spo2Score').textContent = '0';
+            document.getElementById('hbiScore').textContent = '0';
+            
+            // 隱藏結果區域
+            document.getElementById('resultSection').style.display = 'none';
+            
+            // 重設檢查日期為今天
+            document.getElementById('assessmentDate').valueAsDate = new Date();
+        }
+
+        // 分頁切換功能
+        function switchTab(tabName) {
+            // 隱藏所有分頁內容
+            document.querySelectorAll('.tab-content').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            // 移除所有按鈕的active狀態
+            document.querySelectorAll('.tab-button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
+            // 顯示選中的分頁
+            if (tabName === 'psqi') {
+                document.getElementById('psqiTab').classList.add('active');
+                document.querySelectorAll('.tab-button')[0].classList.add('active');
+            } else if (tabName === 'single') {
+                document.getElementById('singleTab').classList.add('active');
+                document.querySelectorAll('.tab-button')[1].classList.add('active');
+                clearSingleAssessmentData();
+            } else if (tabName === 'batch') {
+                document.getElementById('batchTab').classList.add('active');
+                document.querySelectorAll('.tab-button')[2].classList.add('active');
+            } else if (tabName === 'questionnaire') {
+                document.getElementById('questionnaireTab').classList.add('active');
+                document.querySelectorAll('.tab-button')[3].classList.add('active');
+            }
+        }
+        
+        // 批量處理相關變數
+        let uploadedFiles = [];
+        let processedResults = [];
+        
+        // 拖曳上傳功能
+        const uploadArea = document.getElementById('uploadArea');
+        const fileInput = document.getElementById('pdfFiles');
+        
+        uploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadArea.classList.add('dragover');
+        });
+        
+        uploadArea.addEventListener('dragleave', () => {
+            uploadArea.classList.remove('dragover');
+        });
+        
+        uploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadArea.classList.remove('dragover');
+            const files = Array.from(e.dataTransfer.files).filter(file => file.type === 'application/pdf');
+            handleFileUpload(files);
+        });
+        
+        fileInput.addEventListener('change', (e) => {
+            const files = Array.from(e.target.files);
+            handleFileUpload(files);
+        });
+        
+        async function exportResultAsImage() {
+            const resultElement = document.getElementById('resultSection');
+            
+            if (!resultElement || resultElement.style.display === 'none') {
+                alert('請先進行風險評估！');
+                return;
+            }
+            
+            try {
+                // 等待html2canvas庫載入
+                if (typeof html2canvas === 'undefined') {
+                    alert('圖片匯出功能正在載入中，請稍後再試...');
+                    return;
+                }
+                
+                // 獲取患者資訊
+                const patientName = document.getElementById('patientName').value || '未知患者';
+                const assessmentDate = document.getElementById('assessmentDate').value || '未知日期';
+                
+                // 截圖選項
+                const options = {
+                    backgroundColor: '#ffffff',
+                    scale: 2, // 高解析度
+                    useCORS: true,
+                    allowTaint: true,
+                    width: resultElement.offsetWidth,
+                    height: resultElement.offsetHeight
+                };
+                
+                // 生成截圖
+                const canvas = await html2canvas(resultElement, options);
+                
+                // 創建下載連結
+                const link = document.createElement('a');
+                link.download = `OSA風險評估結果_${patientName}_${assessmentDate}.png`;
+                link.href = canvas.toDataURL('image/png');
+                
+                // 觸發下載
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                
+            } catch (error) {
+                console.error('匯出圖片時發生錯誤:', error);
+                alert('匯出圖片失敗，請重試！');
+            }
+        }
+
+        function handleFileUpload(files) {
+            uploadedFiles = [...uploadedFiles, ...files];
+            displayUploadedFiles();
+            document.getElementById('fileList').style.display = 'block';
+        }
+        
+        function displayUploadedFiles() {
+            const container = document.getElementById('uploadedFiles');
+            const scrollContainer = container.parentElement;
+            const fileCountSpan = document.getElementById('fileCount');
+            
+            // 清空容器
+            container.innerHTML = '';
+            
+            // 更新文件數量顯示
+            fileCountSpan.textContent = `共 ${uploadedFiles.length} 個文件`;
+            
+            // 創建所有文件項目
+            uploadedFiles.forEach((file, index) => {
+                const fileItem = createFileItem(file, index);
+                container.appendChild(fileItem);
+            });
+            
+            // 檢查是否需要滾動，添加漸變效果
+            setTimeout(() => {
+                if (container.scrollHeight > scrollContainer.clientHeight) {
+                    scrollContainer.classList.add('has-scroll');
+                } else {
+                    scrollContainer.classList.remove('has-scroll');
+                }
+            }, 100);
+        }
+
+        function createFileItem(file, index) {
+            const fileItem = document.createElement('div');
+            fileItem.className = 'file-item';
+            fileItem.innerHTML = `
+                <div class="file-info">
+                    <span><i class="fa-solid fa-file-pdf"></i></span>
+                    <span>${file.name}</span>
+                    <span class="file-size">(${(file.size / 1024 / 1024).toFixed(2)} MB)</span>
+                </div>
+                <div>
+                    <span class="file-status status-pending" id="status-${index}">等待處理</span>
+                    <button onclick="removeFile(${index})" style="margin-left: 10px; background: #e74c3c; color: white; border: none; padding: 5px 10px; border-radius: 15px; cursor: pointer;">✕</button>
+                </div>
+            `;
+            return fileItem;
+        }
+
+        function createFileItem(file, index) {
+            const fileItem = document.createElement('div');
+            fileItem.className = 'file-item';
+            fileItem.innerHTML = `
+                <div class="file-info">
+                    <i class="fa-solid fa-file-pdf"></i>
+                    <span>${file.name}</span>
+                    <span class="file-size">(${(file.size / 1024 / 1024).toFixed(2)} MB)</span>
+                </div>
+                <div>
+                    <span class="file-status status-pending" id="status-${index}">等待處理</span>
+                    <button onclick="removeFile(${index})" style="margin-left: 10px; background: #e74c3c; color: white; border: none; padding: 5px 10px; border-radius: 15px; cursor: pointer;">✕</button>
+                </div>
+            `;
+            return fileItem;
+        }
+        
+        function removeFile(index) {
+            uploadedFiles.splice(index, 1);
+            displayUploadedFiles();
+            if (uploadedFiles.length === 0) {
+                document.getElementById('fileList').style.display = 'none';
+            }
+        }
+        
+        function clearFiles() {
+            uploadedFiles = [];
+            processedResults = [];
+            document.getElementById('fileList').style.display = 'none';
+            document.getElementById('batchResults').style.display = 'none';
+        }
+        
+        async function processPDFs() {
+            if (uploadedFiles.length === 0) {
+                alert('請先上傳PDF文件');
+                return;
+            }
+            
+            // 顯示進度條
+            const progressContainer = document.getElementById('progressContainer');
+            const progressFill = document.getElementById('progressFill');
+            const progressText = document.getElementById('progressText');
+            const progressPercent = document.getElementById('progressPercent');
+            const progressDetails = document.getElementById('progressDetails');
+            
+            // 初始化進度條
+            progressContainer.style.display = 'block';
+            progressFill.style.width = '0%';
+            progressPercent.textContent = '0%';
+            progressText.textContent = '準備開始分析...';
+            progressDetails.innerHTML = `準備處理 ${uploadedFiles.length} 個PDF文件`;
+            
+            // 清空之前的結果
+            processedResults = [];
+            
+            const totalFiles = uploadedFiles.length;
+            let completedFiles = 0;
+            
+            for (let i = 0; i < totalFiles; i++) {
+                const currentFile = uploadedFiles[i];
+                const statusElement = document.getElementById(`status-${i}`);
+                
+                // 更新當前文件信息
+                progressText.textContent = `正在分析: ${currentFile.name}`;
+                progressDetails.innerHTML = `
+                    <div class="current-file">當前: ${currentFile.name}</div>
+                    <div>進度: ${completedFiles} / ${totalFiles} 個文件已完成</div>
+                `;
+                
+                // 更新狀態為處理中
+                statusElement.textContent = '分析中...';
+                statusElement.className = 'file-status status-processing';
+                
+                try {
+                    // 處理PDF
+                    const result = await processPDF(currentFile, statusElement);
+                    processedResults.push(result);
+                    
+                    // 成功處理
+                    statusElement.textContent = '完成';
+                    statusElement.className = 'file-status status-success';
+                    
+                } catch (error) {
+                    console.error('處理PDF時出錯:', error);
+                    
+                    // 處理失敗
+                    statusElement.textContent = '失敗';
+                    statusElement.className = 'file-status status-error';
+                    
+                    processedResults.push({
+                        fileName: currentFile.name,
+                        error: true,
+                        errorMessage: error.message
+                    });
+                }
+                
+                // 更新完成數量和進度條
+                completedFiles++;
+                const progress = Math.round((completedFiles / totalFiles) * 100);
+                progressFill.style.width = progress + '%';
+                progressPercent.textContent = progress + '%';
+                
+            }
+            
+            // 所有文件處理完成
+            const successCount = processedResults.filter(r => !r.error).length;
+            const errorCount = processedResults.filter(r => r.error).length;
+            
+            progressText.textContent = '分析完成！';
+            progressDetails.innerHTML = `
+                <div style="color: #27ae60;">成功: ${successCount} 個文件</div>
+                ${errorCount > 0 ? `<div style="color: #e74c3c;">失敗: ${errorCount} 個文件</div>` : ''}
+                <div>總計處理: ${totalFiles} 個文件</div>
+            `;
+            
+            // 顯示結果
+            displayBatchResults();
+            
+            // 3秒後隱藏進度條
+            setTimeout(() => {
+                progressContainer.style.display = 'none';
+            }, 3000);
+        }
+        
+        async function processPDF(file, statusElement) {
+            return new Promise(async (resolve, reject) => {
+                try {
+                    // 第一步：讀取並解析PDF
+                    statusElement.textContent = '讀取PDF...';
+                    const pdfData = await readPDFFile(file);
+                    
+                    // 第二步：提取關鍵數據
+                    statusElement.textContent = '提取數據...';
+                    const extractedData = extractDataFromPDFText(pdfData.text, file.name);
+                    
+                    // 第三步：計算風險等級
+                    statusElement.textContent = '計算風險...';
+                    const result = calculateRiskFromExtractedData(extractedData, file.name);
+                    
+                    resolve(result);
+                    
+                } catch (error) {
+                    reject(new Error(`PDF分析失敗: ${error.message}`));
+                }
+            });
+        }
+        
+        async function readPDFFile(file) {
+            return new Promise((resolve, reject) => {
+                const reader = new FileReader();
+                reader.onload = async function(e) {
+                    try {
+                        // 等待PDF.js庫載入
+                        if (typeof pdfjsLib === 'undefined') {
+                            // 如果PDF.js還沒載入，等待一下
+                            setTimeout(() => readPDFFile(file).then(resolve).catch(reject), 1000);
+                            return;
+                        }
+                        
+                        const typedArray = new Uint8Array(e.target.result);
+                        const pdf = await pdfjsLib.getDocument(typedArray).promise;
+                        
+                        let fullText = '';
+                        let pageTexts = []; // 儲存每頁的文字
+                        
+                        // 讀取所有頁面的文字內容
+                        for (let pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
+                            const page = await pdf.getPage(pageNum);
+                            const textContent = await page.getTextContent();
+                            
+                            // 按座標位置重新排序文字項目
+                            const sortedItems = textContent.items.sort((a, b) => {
+                                const yDiff = Math.abs(a.transform[5] - b.transform[5]);
+                                if (yDiff < 2) {
+                                    // 同一行，按 X 座標排序
+                                    return a.transform[4] - b.transform[4];
+                                }
+                                // 不同行，按 Y 座標排序（從上到下）
+                                return b.transform[5] - a.transform[5];
+                            });
+
+                            let pageText = '';
+                            let lastY = null;
+
+                            sortedItems.forEach((item, index) => {
+                                const currentY = item.transform[5];
+                                
+                                // 如果是新的一行，加入換行符
+                                if (lastY !== null && Math.abs(currentY - lastY) > 2) {
+                                    pageText += '\n';
+                                } else if (index > 0) {
+                                    pageText += ' ';
+                                }
+                                
+                                pageText += item.str;
+                                lastY = currentY;
+                            });
+                            
+                            pageTexts.push(pageText);
+                            fullText += `\n=== 第${pageNum}頁 ===\n${pageText}\n`;
+                        }
+                        
+                        console.log('=== PDF讀取詳情 ===');
+                        console.log('總頁數:', pdf.numPages);
+                        console.log('各頁文字長度:', pageTexts.map((text, i) => `第${i+1}頁: ${text.length}字`));
+                        
+                        // 顯示每頁的開頭部分
+                        pageTexts.forEach((text, i) => {
+                            console.log(`第${i+1}頁前200字:`, text.substring(0, 200));
+                        });
+                        
+                        resolve({
+                            text: fullText,
+                            pageTexts: pageTexts,
+                            numPages: pdf.numPages
+                        });
+                        
+                    } catch (error) {
+                        console.error('PDF解析錯誤:', error);
+                        reject(new Error(`PDF解析失敗: ${error.message}`));
+                    }
+                };
+                reader.onerror = function() {
+                    reject(new Error('PDF檔案讀取失敗'));
+                };
+                reader.readAsArrayBuffer(file);
+            });
+        }
+        
+        async function convertPDFToExcel(pdfData, fileName) {
+            return new Promise((resolve, reject) => {
+                try {
+                    // 從PDF文字中提取關鍵數據
+                    const extractedData = extractDataFromPDFText(pdfData.text, fileName);
+                    resolve(extractedData);
+                } catch (error) {
+                    reject(new Error(`數據提取失敗: ${error.message}`));
+                }
+            });
+        }
+        
+        function extractDataFromPDFText(pdfText, fileName) {
+             // 添加這個調試功能
+            const DEBUG_EXTRACTION = true;
+            
+            function debugLog(step, data) {
+                if (DEBUG_EXTRACTION) {
+                    console.log(`[${fileName}] ${step}:`, data);
+                }
+            }
+            
+            debugLog('開始分析PDF', {
+                textLength: pdfText.length,
+                preview: pdfText.substring(0, 200)
+            });
+            
+            console.log('=== 開始PDF數據提取 (Soosyn格式 - 智能優先級版本) ===');
+            console.log('檔案名稱:', fileName);
+            console.log('PDF內容預覽:', pdfText.substring(0, 300));
+            
+            const result = {
+                patientName: null,
+                recordTime: null,
+                printDate: null,
+                odi3: null,
+                minSpo2: null,
+                hbi: null
+            };
+            
+            // 分離第一頁和第二頁的內容
+            const pages = pdfText.split(/=== 第\d+頁 ===/);
+            console.log('PDF總頁數:', pages.length - 1);
+
+            const firstPage = pages[1] || '';
+            const secondPage = pages[2] || '';
+
+            console.log('第一頁長度:', firstPage.length);
+            console.log('第二頁長度:', secondPage.length);
+            console.log('第二頁預覽:', secondPage.substring(0, 200));
+
+            function isValidODI3(value) {
+                const num = parseFloat(value);
+                return !isNaN(num) && num >= 0 && num <= 200;
+            }
+
+            function isValidSpO2(value) {
+                const num = parseFloat(value);
+                return !isNaN(num) && num >= 50 && num <= 100;
+            }
+
+            function isValidHBI(value) {
+                const num = parseFloat(value);
+                return !isNaN(num) && num >= 0 && num <= 300;
+            }
+
+            // 1. 提取患者姓名 - "姓名 : 吳文彬"
+            const namePatterns = [
+                /姓名\s*[:：]\s*([^\s\n\r病歷號]+)/i,
+                /姓名.*?[:：]\s*([^\s\n\r]+)/i
+            ];
+            
+            for (const pattern of namePatterns) {
+                const match = firstPage.match(pattern);
+                if (match && !result.patientName) {
+                    let name = match[1].trim();
+                    // 清理姓名中的多餘文字
+                    name = name.replace(/身高.*|病.*|纖維.*|工廠.*|-.*/, '').trim();
+                    if (name.length > 0 && name.length <= 10) {
+                        result.patientName = name;
+                        console.log('✅ 找到姓名:', result.patientName);
+                        break;
+                    }
+                }
+            }
+            
+            // 2. 提取記錄時間 - "記錄時間 : 2025/4/1 22:31 - 2025/4/2 6:13"
+            const recordTimePatterns = [
+                /記錄時間\s*[:：]\s*([0-9/:\s-]+)/i,
+                /記錄時間.*?[:：]\s*([0-9/:\s-]+)/i
+            ];
+            
+            for (const pattern of recordTimePatterns) {
+                const match = firstPage.match(pattern);
+                if (match && !result.recordTime) {
+                    result.recordTime = match[1].trim();
+                    console.log('✅ 找到記錄時間:', result.recordTime);
+                    break;
+                }
+            }
+            
+            // 3. 提取列印日期 - "列印日期 : 2025年04月21日"
+            const printDatePatterns = [
+                /列印日期\s*[:：]\s*([0-9年月日]+)/i,
+                /列印日期.*?[:：]\s*([0-9年月日]+)/i
+            ];
+            
+            for (const pattern of printDatePatterns) {
+                const match = firstPage.match(pattern);
+                if (match && !result.printDate) {
+                    result.printDate = match[1].trim();
+                    console.log('✅ 找到列印日期:', result.printDate);
+                    break;
+                }
+            }
+            
+            // 針對表格格式的特殊處理
+            console.log('\n🔍 表格格式數據提取');
+
+            // 嘗試找到表格標題行和對應的數值行
+            const tableLines = secondPage.split('\n');
+            console.log('第二頁所有行:', tableLines);
+
+            // 找到包含這些關鍵詞的行的索引
+            let odiIndex = -1, spo2Index = -1, hbiIndex = -1;
+
+            tableLines.forEach((line, index) => {
+                const cleanLine = line.trim();
+
+                // 只取第一個找到的ODI 3%行，忽略其他的
+                if (line.includes('ODI') && line.includes('3%') && odiIndex === -1) {
+                    odiIndex = index;
+                    console.log(`找到ODI 3%標題在第${index}行:`, line.trim());
+                }
+                if (line.includes('最小') && line.includes('SpO')) {
+                    spo2Index = index;
+                    console.log(`找到最小SpO2標題在第${index}行:`, line.trim());
+                }
+                // HBI 通常出現在血氧飽和度表頭行，如「... HBI 28.3 %min/h」，取第一個
+                if (line.includes('HBI') && hbiIndex === -1) {
+                    hbiIndex = index;
+                    console.log(`找到HBI標題在第${index}行:`, line);
+                }
+            });
+
+            // ODI 3% 修正 - 加入調試信息
+            console.log('ODI Index:', odiIndex);
+            console.log('result.odi3 當前值:', result.odi3);
+
+            if (odiIndex !== -1 && result.odi3 === null) {
+                const odiLine = tableLines[odiIndex];
+                console.log('準備處理ODI行:', odiLine);
+                
+                // 提取行中所有數字
+                const numbers = odiLine.match(/\d+(?:\.\d+)?/g);
+                console.log('ODI行中找到的數字:', numbers);
+                
+                if (numbers) {
+                    for (const num of numbers) {
+                        const value = parseFloat(num);
+                        console.log('檢查數字:', num, '轉換後:', value, '有效性:', isValidODI3(value));
+                        if (isValidODI3(value) && value !== 3) {
+                            result.odi3 = value;
+                            console.log('✅ 從表格提取ODI 3%:', result.odi3);
+                            break;
+                        }
+                    }
+                }
+            }
+
+            // SpO2 修正
+            if (spo2Index !== -1 && result.minSpo2 === null) {
+                const spo2Line = tableLines[spo2Index];
+                const match = spo2Line.match(/最小\s*SpO\s*2?\s+(\d+)/i);
+                if (match) {
+                    const value = parseInt(match[1]);
+                    if (isValidSpO2(value)) {
+                        result.minSpo2 = value;
+                        console.log('✅ 從表格提取最小SpO2:', result.minSpo2, '來源行:', spo2Line);
+                    }
+                }
+            }
+
+            // HBI 修正 - 擷取「HBI 28.3 %min/h」中的數值
+            if (hbiIndex !== -1 && result.hbi === null) {
+                const hbiLine = tableLines[hbiIndex];
+                // 優先比對緊接在 HBI 後、單位為 %min/h 的數值
+                let match = hbiLine.match(/HBI\s+(\d+(?:\.\d+)?)\s*%?\s*min\s*\/\s*h/i);
+                if (!match) {
+                    // 退而求其次：擷取 HBI 之後出現的第一個數值
+                    match = hbiLine.match(/HBI\D*(\d+(?:\.\d+)?)/i);
+                }
+                if (match) {
+                    const value = parseFloat(match[1]);
+                    if (isValidHBI(value)) {
+                        result.hbi = value;
+                        console.log('✅ 從表格提取HBI:', result.hbi, '來源行:', hbiLine);
+                    }
+                }
+            }
+            
+            console.log('\n=== 智能提取完成 ===');
+            console.log('最終結果:', {
+                姓名: result.patientName,
+                記錄時間: result.recordTime,
+                列印日期: result.printDate,
+                'ODI 3%': result.odi3,
+                'HBI': result.hbi,
+                '最小SpO2': result.minSpo2
+            });
+            
+            return result;
+        }
+        
+        function calculateRiskFromExtractedData(data, fileName) {
+            // 檢查數據完整性
+            const missingData = [];
+            if (data.minSpo2 === null || data.minSpo2 === undefined) missingData.push('最小SpO2');
+            if (data.odi3 === null || data.odi3 === undefined) missingData.push('ODI 3%');
+            if (data.hbi === null || data.hbi === undefined) missingData.push('HBI');
+            
+            if (missingData.length === 3) {
+                throw new Error('無法從PDF中提取任何關鍵數據，請檢查PDF格式或內容');
+            }
+            
+            // 計算評分 (缺失的數據當作0分)
+            const odi3Score = data.odi3 !== null && data.odi3 !== undefined ? calculateODI3Score(data.odi3) : 0;
+            const spo2Score = data.minSpo2 !== null && data.minSpo2 !== undefined ? calculateSpO2Score(data.minSpo2) : 0;
+            const hbiScore = data.hbi !== null && data.hbi !== undefined ? calculateHBIScore(data.hbi) : 0;
+            const totalScore = odi3Score + spo2Score + hbiScore;
+            
+            let riskLevel;
+            if (totalScore <= 1) {
+                riskLevel = '正常';
+            } else if (totalScore <= 4) {
+                riskLevel = '潛在風險';
+            } else if (totalScore <= 8) {
+                riskLevel = '輕度風險';
+            } else if (totalScore <= 12) {
+                riskLevel = '中度風險';
+            } else if (totalScore <= 16) {
+                riskLevel = '高度風險';
+            } else {
+                riskLevel = '重度風險';
+            }
+            
+            // 使用提取的患者姓名，如果沒有則使用檔名
+            let patientName = data.patientName || fileName.replace(/\.pdf$/i, '');
+            
+            return {
+                fileName: fileName,
+                patientName: patientName,
+                recordTime: data.recordTime || '未知',
+                printDate: data.printDate || '未知',
+                odi3: data.odi3, // 保持原始數值
+                minSpo2: data.minSpo2, // 保持原始數值
+                hbi: data.hbi, // 保持原始數值
+                odi3Score,
+                spo2Score,
+                hbiScore,
+                totalScore,
+                riskLevel,
+                processDate: new Date().toLocaleDateString('zh-TW'),
+                missingData: missingData.length > 0 ? missingData : null
+            };
+        }
+        
+        function formatDateTime(value) {
+            if (value instanceof Date) {
+                return value.toLocaleString('zh-TW');
+            } else if (typeof value === 'number') {
+                // Excel 日期是從 1900/1/1 開始的天數
+                const excelEpoch = new Date(1900, 0, 1);
+                const date = new Date(excelEpoch.getTime() + (value - 2) * 24 * 60 * 60 * 1000);
+                return date.toLocaleString('zh-TW');
+            } else if (typeof value === 'string') {
+                return value;
+            }
+            return '無資料';
+        }
+        
+        function displayBatchResults() {
+            const successResults = processedResults.filter(r => !r.error);
+            
+            // 統計摘要 - 6級制
+            const level1 = successResults.filter(r => r.riskLevel === '正常').length;
+            const level2 = successResults.filter(r => r.riskLevel === '潛在風險').length;
+            const level3 = successResults.filter(r => r.riskLevel === '輕度風險').length;
+            const level4 = successResults.filter(r => r.riskLevel === '中度風險').length;
+            const level5 = successResults.filter(r => r.riskLevel === '高度風險').length;
+            const level6 = successResults.filter(r => r.riskLevel === '重度風險').length;
+
+            const summaryHTML = `
+                <div class="summary-card" style="border-left-color: #4A8F8F;">
+                    <div class="summary-number" style="color: #4A8F8F;">${level1}</div>
+                    <div class="summary-label">等級1 正常</div>
+                </div>
+                <div class="summary-card" style="border-left-color: #6FA2A2;">
+                    <div class="summary-number" style="color: #6FA2A2;">${level2}</div>
+                    <div class="summary-label">等級2 潛在風險</div>
+                </div>
+                <div class="summary-card" style="border-left-color: #A5B3B2;">
+                    <div class="summary-number" style="color: #A5B3B2;">${level3}</div>
+                    <div class="summary-label">等級3 輕度風險</div>
+                </div>
+                <div class="summary-card" style="border-left-color: #C8C0B1;">
+                    <div class="summary-number" style="color: #C8C0B1;">${level4}</div>
+                    <div class="summary-label">等級4 中度風險</div>
+                </div>
+                <div class="summary-card" style="border-left-color: #E5846E;">
+                    <div class="summary-number" style="color: #E5846E;">${level5}</div>
+                    <div class="summary-label">等級5 高度風險</div>
+                </div>
+                <div class="summary-card" style="border-left-color: #DF705A;">
+                    <div class="summary-number" style="color: #DF705A;">${level6}</div>
+                    <div class="summary-label">等級6 重度風險</div>
+                </div>
+                <div class="summary-card" style="border-left-color: #2c3e50;">
+                    <div class="summary-number">${successResults.length}</div>
+                    <div class="summary-label">總處理數量</div>
+                </div>
+            `;
+            
+            document.getElementById('resultsSummary').innerHTML = summaryHTML;
+            
+            // 結果表格
+            const tableHTML = `
+                <table>
+                    <thead>
+                        <tr>
+                            <th>患者姓名</th>
+                            <th>記錄時間</th>
+                            <th>ODI 3%</th>
+                            <th>最小SpO2</th>
+                            <th>HBI</th>
+                            <th>總分</th>
+                            <th>風險等級</th>
+                            <th>建議處置</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${processedResults.map(result => {
+                            if (result.error) {
+                                return `
+                                    <tr>
+                                        <td>${result.fileName}</td>
+                                        <td colspan="7" style="color: #e74c3c;">處理失敗: ${result.errorMessage}</td>
+                                    </tr>
+                                `;
+                            }
+                            
+                            let riskClass, riskBgColor, riskTextColor;
+                            switch(result.riskLevel) {
+                                case '正常':
+                                    riskClass = 'level-1';
+                                    riskBgColor = '#4A8F8F';
+                                    riskTextColor = '#ffffff';
+                                    break;
+                                case '潛在風險':
+                                    riskClass = 'level-2';
+                                    riskBgColor = '#6FA2A2';
+                                    riskTextColor = '#ffffff';
+                                    break;
+                                case '輕度風險':
+                                    riskClass = 'level-3';
+                                    riskBgColor = '#A5B3B2';
+                                    riskTextColor = '#ffffff';
+                                    break;
+                                case '中度風險':
+                                    riskClass = 'level-4';
+                                    riskBgColor = '#C8C0B1';
+                                    riskTextColor = '#5a5550';
+                                    break;
+                                case '高度風險':
+                                    riskClass = 'level-5';
+                                    riskBgColor = '#E5846E';
+                                    riskTextColor = '#ffffff';
+                                    break;
+                                case '重度風險':
+                                    riskClass = 'level-6';
+                                    riskBgColor = '#DF705A';
+                                    riskTextColor = '#ffffff';
+                                    break;
+                                default:
+                                    riskClass = 'unknown';
+                                    riskBgColor = '#95a5a6';
+                                    riskTextColor = '#ffffff';
+                            }
+                            
+                            const noteText = result.missingData ? 
+                                `缺少: ${result.missingData.join(', ')}` : '數據完整';
+                            
+                            // 確保顯示正確的數值格式
+                            const displayOdi3 = result.odi3 !== null && result.odi3 !== undefined ? result.odi3 : '無資料';
+                            const displayMinSpo2 = result.minSpo2 !== null && result.minSpo2 !== undefined ? 
+                                `${result.minSpo2}%` : '無資料';
+                            const displayHbi = result.hbi !== null && result.hbi !== undefined ? 
+                                `${result.hbi}` : '無資料';
+                            
+                            // 獲取簡短的建議處置
+                            let shortRecommendation = '';
+                            switch(result.riskLevel) {
+                                case '正常': shortRecommendation = '年度追蹤'; break;
+                                case '潛在風險': shortRecommendation = '排除非OSA因素，2-4週重測'; break;
+                                case '輕度風險': shortRecommendation = '生活調整，6-12月追蹤'; break;
+                                case '中度風險': shortRecommendation = '居家睡眠檢測，3-6月追蹤'; break;
+                                case '高度風險': shortRecommendation = '轉介睡眠專科，1-3月追蹤'; break;
+                                case '重度風險': shortRecommendation = '立即轉介，評估CPAP'; break;
+                            }
+
+                            return `
+                                <tr>
+                                    <td>${result.patientName || '未知'}</td>
+                                    <td style="font-size: 12px;">${result.recordTime || '未知'}</td>
+                                    <td>${result.odi3 !== null ? result.odi3 : '-'}</td>
+                                    <td>${result.minSpo2 !== null ? result.minSpo2 + '%' : '-'}</td>
+                                    <td>${result.hbi !== null ? result.hbi : '-'}</td>
+                                    <td><strong>${result.totalScore}</strong></td>
+                                    <td><span class="risk-badge" style="background: ${riskBgColor}; color: ${riskTextColor};">${result.riskLevel}</span></td>
+                                    <td style="font-size: 11px; text-align: left;">${shortRecommendation}</td>
+                                </tr>
+                            `;
+                        }).join('')}
+                    </tbody>
+                </table>
+            `;
+            
+            document.getElementById('resultsTable').innerHTML = tableHTML;
+            document.getElementById('batchResults').style.display = 'block';
+        }
+        
+        // ODI 3% 計分（最高 12 分）— 依中國醫數據修正方案 V2
+        function calculateODI3Score(value) {
+            if (value > 25) return 12;      // > 25
+            if (value >= 18) return 9;      // 18–25
+            if (value >= 12) return 6;      // 12–18
+            if (value >= 10) return 3;      // 10–12
+            if (value >= 5) return 1;       // 5–10
+            return 0;                        // < 5
+        }
+        
+        // 最低 SpO2 計分（最高 4 分）— 依中國醫數據修正方案 V2
+        function calculateSpO2Score(value) {
+            if (value < 80) return 4;       // < 80%
+            if (value < 83) return 3;       // 80–83%
+            if (value < 86) return 2;       // 83–86%
+            if (value < 88) return 1;       // 86–88%
+            return 0;                        // ≥ 88%
+        }
+        
+        // HBI 低氧負擔指數計分（最高 4 分）— 依中國醫數據修正方案 V2
+        function calculateHBIScore(value) {
+            if (value >= 40) return 4;      // ≥ 40
+            if (value >= 25) return 3;      // 25–40
+            if (value >= 15) return 2;      // 15–25
+            if (value >= 10) return 1;      // 10–15
+            return 0;                        // < 10
+        }
+        
+        function updateScores() {
+            const odi3 = parseFloat(document.getElementById('odi3').value);
+            const minSpo2 = parseFloat(document.getElementById('minSpo2').value);
+            const hbi = parseFloat(document.getElementById('hbi').value);
+            
+            // 只有當有值時才計算分數，否則顯示0
+            const odi3Score = !isNaN(odi3) ? calculateODI3Score(odi3) : 0;
+            const spo2Score = !isNaN(minSpo2) ? calculateSpO2Score(minSpo2) : 0;
+            const hbiScore = !isNaN(hbi) ? calculateHBIScore(hbi) : 0;
+            
+            document.getElementById('odi3Score').textContent = odi3Score;
+            document.getElementById('spo2Score').textContent = spo2Score;
+            document.getElementById('hbiScore').textContent = hbiScore;
+        }
+        
+        function calculateRisk() {
+            // 驗證是否有輸入數值
+            const odi3Value = document.getElementById('odi3').value.trim();
+            const minSpo2Value = document.getElementById('minSpo2').value.trim();
+            const hbiValue = document.getElementById('hbi').value.trim();
+            
+            // 檢查是否至少輸入一個數值
+            if (!odi3Value && !minSpo2Value && !hbiValue) {
+                alert('請至少輸入一個檢測數值才能進行風險評估！');
+                return;
+            }
+            
+            updateScores();
+            
+            const odi3Score = parseInt(document.getElementById('odi3Score').textContent);
+            const spo2Score = parseInt(document.getElementById('spo2Score').textContent);
+            const hbiScore = parseInt(document.getElementById('hbiScore').textContent);
+            
+            const totalScore = odi3Score + spo2Score + hbiScore;
+            
+            let riskLevel, riskColor, recommendation, description;
+
+            if (totalScore <= 1) {
+                riskLevel = '等級1：正常';
+                riskColor = '#4A8F8F';
+                description = '三項指標皆在正常範圍，屬低風險，無睡眠呼吸障礙與缺氧負荷跡象。';
+                recommendation = '維持健康生活型態，年度追蹤即可。';
+            } else if (totalScore <= 4) {
+                riskLevel = '等級2：潛在風險';
+                riskColor = '#6FA2A2';
+                description = '邊緣異常。ODI 或缺氧負荷輕微升高，但可能為非 OSA 因素所致（如鼻塞、過敏、鼻中膈彎曲、上呼吸道感染、血氧計配戴問題等）。';
+                recommendation = '建議重測，或先至耳鼻喉科排除鼻腔問題、處理過敏後 2-4 週重新檢測，以排除非 OSA 因素。可填寫「鑑別診斷問卷」協助釐清。';
+            } else if (totalScore <= 8) {
+                riskLevel = '等級3：輕度風險';
+                riskColor = '#A5B3B2';
+                description = '有 OSA 風險，確認為輕度睡眠呼吸障礙，可能影響睡眠品質，但缺氧負荷尚輕。';
+                recommendation = '建議追蹤。生活型態調整（減重、避免仰睡、戒酒、規律作息），6-12 個月追蹤檢測。';
+            } else if (totalScore <= 12) {
+                riskLevel = '等級4：中度風險';
+                riskColor = '#C8C0B1';
+                description = '中度睡眠呼吸障礙，夜間血氧明顯波動、缺氧負荷上升，長期可能增加心血管疾病風險。';
+                recommendation = '建議進一步睡眠檢測。安排居家睡眠檢測（HST）確認嚴重程度，3-6 個月追蹤，並積極調整生活型態。';
+            } else if (totalScore <= 16) {
+                riskLevel = '等級5：高度風險';
+                riskColor = '#E5846E';
+                description = '高度懷疑中重度 OSA，頻繁缺氧事件、缺氧負荷偏高，可能已有日間嗜睡、注意力不集中等症狀。';
+                recommendation = '建議轉介睡眠專科，安排多頻道睡眠檢查（PSG），1-3 個月內追蹤，評估是否需要治療介入。';
+            } else {
+                riskLevel = '等級6：重度風險';
+                riskColor = '#DF705A';
+                description = '極高風險 / 重度缺氧負荷。夜間長時間處於低血氧狀態，高度增加高血壓、心律不整、中風、猝死風險。';
+                recommendation = '立即轉介睡眠專科，優先評估 CPAP 治療，必要時考慮手術（如 UPPP、正顎手術）。';
+            }
+            
+            document.getElementById('totalScore').textContent = totalScore;
+            document.getElementById('totalScore').style.color = riskColor;
+            document.getElementById('riskLevel').textContent = riskLevel;
+            document.getElementById('riskLevel').style.color = riskColor;
+            document.getElementById('descriptionText').textContent = description;
+            document.getElementById('recommendationText').textContent = recommendation;
+            
+            // 更新指示器位置
+            const indicator = document.getElementById('scoreIndicator');
+            const position = (totalScore / 20) * 100;
+            indicator.style.left = position + '%';
+            
+            document.getElementById('resultSection').style.display = 'block';
+            document.getElementById('resultSection').scrollIntoView({ behavior: 'smooth' });
+            
+            // 更新匯出用的患者資訊顯示
+            document.getElementById('displayPatientName').textContent = 
+                document.getElementById('patientName').value || '未填寫';
+            document.getElementById('displayAssessmentDate').textContent = 
+                document.getElementById('assessmentDate').value || '未填寫';
+
+        }
+        
+        // 添加輸入監聽器以即時更新分數
+        document.getElementById('odi3').addEventListener('input', updateScores);
+        document.getElementById('minSpo2').addEventListener('input', updateScores);
+        document.getElementById('hbi').addEventListener('input', updateScores);
+
+        function exportToExcel() {
+            if (processedResults.length === 0) {
+                alert('沒有可匯出的數據！');
+                return;
+            }
+            
+            // 準備Excel數據
+            const excelData = [];
+            
+            // 標題行
+            excelData.push([
+                '文件名稱',
+                '患者姓名', 
+                '記錄時間',
+                '列印日期',
+                'ODI 3% (每小時頻率)',
+                '最小SpO2 (%)',
+                'HBI (%min/h)',
+                'ODI 3% 分數',
+                'SpO2 分數',
+                'HBI 分數',
+                '總分 (滿分20)',
+                '風險等級',
+                '等級說明',
+                '建議處置',
+                '處理日期',
+                '備註'
+            ]);
+                        
+            // 數據行
+            processedResults.forEach(result => {
+                if (!result.error) {
+                    const noteText = result.missingData ? 
+                        `缺少: ${result.missingData.join(', ')}` : '數據完整';
+                        
+                    // 根據風險等級獲取說明和建議
+                    let levelDescription = '';
+                    let levelRecommendation = '';
+                    switch(result.riskLevel) {
+                        case '正常':
+                            levelDescription = '低風險，三項指標皆在正常範圍，無睡眠呼吸障礙與缺氧負荷跡象';
+                            levelRecommendation = '維持健康生活型態，年度追蹤即可';
+                            break;
+                        case '潛在風險':
+                            levelDescription = '邊緣異常，ODI或缺氧負荷輕微升高，可能為非OSA因素（鼻塞、過敏等）';
+                            levelRecommendation = '建議重測，或排除鼻腔問題／過敏後2-4週重新檢測';
+                            break;
+                        case '輕度風險':
+                            levelDescription = '有OSA風險，確認為輕度睡眠呼吸障礙，缺氧負荷尚輕';
+                            levelRecommendation = '建議追蹤，生活型態調整（減重、避免仰睡、戒酒），6-12個月追蹤';
+                            break;
+                        case '中度風險':
+                            levelDescription = '中度睡眠呼吸障礙，夜間血氧明顯波動、缺氧負荷上升';
+                            levelRecommendation = '建議進一步睡眠檢測，安排居家睡眠檢測（HST），3-6個月追蹤';
+                            break;
+                        case '高度風險':
+                            levelDescription = '高度懷疑中重度OSA，頻繁缺氧事件、缺氧負荷偏高';
+                            levelRecommendation = '建議轉介睡眠專科，安排多頻道睡眠檢查（PSG），1-3個月追蹤';
+                            break;
+                        case '重度風險':
+                            levelDescription = '極高風險／重度缺氧負荷，夜間長時間低血氧';
+                            levelRecommendation = '立即轉介睡眠專科，優先評估CPAP治療';
+                            break;
+                    }
+
+                    excelData.push([
+                        result.fileName,
+                        result.patientName || '未知',
+                        result.recordTime || '未知',
+                        result.printDate || '未知',
+                        result.odi3 !== null ? result.odi3 : '無資料',
+                        result.minSpo2 !== null ? result.minSpo2 : '無資料',
+                        result.hbi !== null ? result.hbi : '無資料',
+                        result.odi3Score,
+                        result.spo2Score,
+                        result.hbiScore,
+                        result.totalScore,
+                        result.riskLevel,
+                        levelDescription,
+                        levelRecommendation,
+                        result.processDate,
+                        noteText
+                    ]);
+                } else {
+                    excelData.push([
+                        result.fileName,
+                        '處理失敗',
+                        '',
+                        '',
+                        '',
+                        '',
+                        '',
+                        '',
+                        '',
+                        '',
+                        '',
+                        '',
+                        '',
+                        '',
+                        '',
+                        result.errorMessage
+                    ]);
+                }
+            });
+            
+            // 創建工作表
+            const ws = XLSX.utils.aoa_to_sheet(excelData);
+            
+            // 設置列寬
+            const colWidths = [
+                {wch: 20}, // 文件名稱
+                {wch: 12}, // 患者姓名
+                {wch: 18}, // 記錄時間
+                {wch: 15}, // 列印日期
+                {wch: 12}, // ODI 3%
+                {wch: 12}, // 最小SpO2
+                {wch: 12}, // HBI
+                {wch: 10}, // ODI 3% 分數
+                {wch: 10}, // SpO2 分數
+                {wch: 10}, // HBI 分數
+                {wch: 12}, // 總分
+                {wch: 12}, // 風險等級
+                {wch: 40}, // 等級說明
+                {wch: 45}, // 建議處置
+                {wch: 12}, // 處理日期
+                {wch: 20}  // 備註
+            ];
+            ws['!cols'] = colWidths;
+            
+            // 創建工作簿
+            const wb = XLSX.utils.book_new();
+            XLSX.utils.book_append_sheet(wb, ws, "OSA風險評估結果");
+            
+            // 生成文件名
+            const now = new Date();
+            const dateStr = now.toISOString().slice(0,10).replace(/-/g, '');
+            const timeStr = now.toTimeString().slice(0,8).replace(/:/g, '');
+            const fileName = `OSA風險評估結果_${dateStr}_${timeStr}.xlsx`;
+            
+            // 下載文件
+            XLSX.writeFile(wb, fileName);
+        }
+
+        function clearQuestionnaire() {
+            // 清空所有 radio 選擇
+            document.querySelectorAll('#questionnaireTab input[type="radio"]').forEach(radio => {
+                radio.checked = false;
+            });
+            // 清空所有 checkbox 選擇
+            document.querySelectorAll('#questionnaireTab input[type="checkbox"]').forEach(checkbox => {
+                checkbox.checked = false;
+            });
+            // 清空所有 textarea
+            document.querySelectorAll('#questionnaireTab textarea').forEach(textarea => {
+                textarea.value = '';
+            });
+            // 隱藏結果
+            document.getElementById('questionnaireResult').style.display = 'none';
+        }
+
+        function generateQuestionnaireReport() {
+            const nasal = document.querySelector('input[name="nasal"]:checked')?.value;
+            const allergy = document.querySelector('input[name="allergy"]:checked')?.value;
+            const infection = document.querySelector('input[name="infection"]:checked')?.value;
+            const cardiopulmonary = document.querySelector('input[name="cardiopulmonary"]:checked')?.value;
+            const equipment = document.querySelector('input[name="equipment"]:checked')?.value;
+            const symptoms = Array.from(document.querySelectorAll('input[name="symptoms"]:checked')).map(cb => cb.value);
+            
+            let recommendations = [];
+            let riskFactors = [];
+            let nonOSAFactors = [];
+            
+            // 分析鼻塞
+            if (nasal === 'chronic' || nasal === 'seasonal') {
+                nonOSAFactors.push('鼻塞症狀');
+                recommendations.push('建議轉介<strong>耳鼻喉科</strong>評估鼻腔問題（鼻中膈彎曲、鼻甲肥大等）');
+            }
+            
+            // 分析過敏
+            if (allergy === 'rhinitis' || allergy === 'other') {
+                nonOSAFactors.push('過敏病史');
+                recommendations.push('建議先進行<strong>過敏治療</strong>，2-4 週後重新檢測');
+            }
+            
+            // 分析感染
+            if (infection === 'recent' || infection === 'during') {
+                nonOSAFactors.push('近期感染');
+                recommendations.push('建議<strong>康復後 2 週</strong>重新檢測以排除感染影響');
+            }
+            
+            // 分析心肺疾病
+            if (cardiopulmonary !== 'none' && cardiopulmonary) {
+                riskFactors.push('心肺疾病史');
+                recommendations.push('有心肺疾病史，建議<strong>同時評估相關疾病控制情況</strong>');
+            }
+            
+            // 分析設備問題
+            if (equipment === 'loose' || equipment === 'tattoo' || equipment === 'other') {
+                nonOSAFactors.push('檢測設備問題');
+                if (equipment === 'tattoo') {
+                    recommendations.push('手腕刺青可能影響血氧感測準確性，建議<strong>將手環配戴於無刺青的手腕重新檢測</strong>');
+                } else if (equipment === 'loose') {
+                    recommendations.push('手環配戴鬆脫可能影響數據，建議<strong>確認配戴緊密後重新檢測</strong>');
+                } else {
+                    recommendations.push('檢測可能受干擾，建議<strong>排除干擾因素後重新檢測</strong>');
+                }
+            }
+            
+            // 分析 OSA 症狀
+            const hasOSASymptoms = symptoms.length > 0 && !symptoms.includes('none');
+            if (hasOSASymptoms) {
+                const symptomNames = {
+                    'snoring': '明顯打鼾',
+                    'witnessed': '被觀察到呼吸中止',
+                    'sleepy': '日間嗜睡',
+                    'headache': '晨起頭痛',
+                    'nocturia': '夜尿頻繁'
+                };
+                const presentSymptoms = symptoms.filter(s => s !== 'none').map(s => symptomNames[s]);
+                riskFactors.push(`OSA 典型症狀（${presentSymptoms.join('、')}）`);
+            }
+            
+            // 生成報告
+            let reportHTML = '';
+            
+            if (nonOSAFactors.length > 0) {
+                reportHTML += `
+                    <div style="background: #fff3cd; padding: 15px; border-radius: 10px; margin-bottom: 15px;">
+                        <strong>發現可能的非 OSA 因素：</strong>
+                        <ul style="margin: 10px 0 0 20px;">
+                            ${nonOSAFactors.map(f => `<li>${f}</li>`).join('')}
+                        </ul>
+                    </div>
+                `;
+            }
+            
+            if (riskFactors.length > 0) {
+                reportHTML += `
+                    <div style="background: #f8d7da; padding: 15px; border-radius: 10px; margin-bottom: 15px;">
+                        <strong>需注意的風險因素：</strong>
+                        <ul style="margin: 10px 0 0 20px;">
+                            ${riskFactors.map(f => `<li>${f}</li>`).join('')}
+                        </ul>
+                    </div>
+                `;
+            }
+            
+            if (recommendations.length > 0) {
+                reportHTML += `
+                    <div style="background: #d4edda; padding: 15px; border-radius: 10px; margin-bottom: 15px;">
+                        <strong>建議處置：</strong>
+                        <ol style="margin: 10px 0 0 20px; line-height: 1.8;">
+                            ${recommendations.map(r => `<li>${r}</li>`).join('')}
+                        </ol>
+                    </div>
+                `;
+            }
+            
+            // 綜合判斷
+            let conclusion = '';
+            if (nonOSAFactors.length > 0 && !hasOSASymptoms) {
+                conclusion = `
+                    <div style="background: #cce5ff; padding: 15px; border-radius: 10px;">
+                        <strong>綜合判斷：</strong><br>
+                        目前發現 ${nonOSAFactors.length} 個可能的非 OSA 因素，且無明顯 OSA 典型症狀。<br>
+                        <strong>建議先排除上述因素後再重新檢測</strong>，若 ODI 仍異常則升級為等級 3 進一步追蹤。
+                    </div>
+                `;
+            } else if (nonOSAFactors.length > 0 && hasOSASymptoms) {
+                conclusion = `
+                    <div style="background: #f8d7da; padding: 15px; border-radius: 10px;">
+                        <strong>綜合判斷：</strong><br>
+                        雖有非 OSA 因素存在，但<strong>同時合併 OSA 典型症狀</strong>。<br>
+                        <strong>建議直接升級為等級 3，安排進一步睡眠檢查</strong>，同時處理非 OSA 因素。
+                    </div>
+                `;
+            } else if (nonOSAFactors.length === 0 && hasOSASymptoms) {
+                conclusion = `
+                    <div style="background: #f8d7da; padding: 15px; border-radius: 10px;">
+                        <strong>綜合判斷：</strong><br>
+                        無明顯非 OSA 干擾因素，且有 OSA 典型症狀。<br>
+                        <strong>建議升級為等級 3，安排居家睡眠檢測或轉介睡眠專科</strong>。
+                    </div>
+                `;
+            } else {
+                conclusion = `
+                    <div style="background: #d4edda; padding: 15px; border-radius: 10px;">
+                        <strong>綜合判斷：</strong><br>
+                        目前無明顯非 OSA 因素，也無典型 OSA 症狀。<br>
+                        <strong>建議 2-4 週後重新檢測確認</strong>，持續觀察是否出現相關症狀。
+                    </div>
+                `;
+            }
+            
+            reportHTML += conclusion;
+            
+            document.getElementById('questionnaireReportContent').innerHTML = reportHTML;
+            document.getElementById('questionnaireResult').style.display = 'block';
+            document.getElementById('questionnaireResult').scrollIntoView({ behavior: 'smooth' });
+        }
+
+    </script>
+</body>
+</html>
